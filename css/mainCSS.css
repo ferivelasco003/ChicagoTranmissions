@@ -1,95 +1,239 @@
 @charset "UTF-8";
 /* CSS Document */
-.body{
-  background-image: url("Images/image3.jpg");
-  background-repeat: no-repeat;
-  background-size: 50%;
-  font-family: Rubik; 
-  
+@font-face{
+  font-family: "Rubik";
+  src: url("../Rubik/Rubik-Regular.ttf");
+  src: url("../Rubik/Rubik-Black.ttf");
 }
+.body{
+
+}
+.wrapper{
+  width:100%;
+  padding: 0;
+}
+
 #header{
- /* width: 500px;*/
+
+ background-color: rgba(0,0,0,0.5);
+background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Images/image3.jpg");
+background-repeat: no-repeat;
+background-blend-mode: lighten;
+background-size: 100%;
 height: 120px;
-  
+
 }
 .logo-2 {
     clear: inherit;
-    /* [disabled]width: 411px; */
-    /* [disabled]height: 36px; */
     object-fit: contain;
-    padding-top: 0px;
-    padding-bottom: 1px;
+    padding-top: 42px;
+    padding-left: 44px
 }
 .image3{
   width: 500px;
   height: 120px;
 }
-.nav-link{
+/* .nav-link{
   float:left;
-}
+  background-color: #230000;
+  text-align: center;
+  color:#ffffff
+} */
+/* .row { position: relative; } */
 
-#Menu{
+/* #Menu{
   height: 80px;
   background-color: #980000;
+  position: absolute;
+  background-color: #f9f9f9;
+  z-index: 1;
+  
+} */
+.main_image{
+  width: 460px;
+  height: 229px;
+  margin: 10px;
 }
-#phone_num{
-  width: 400px;
-  height: 93px;
-  font-size: 48px;
+.generalText{
   text-align: center;
-  font-weight: 500;
   font-stretch: normal;
   font-style: normal;
-  line-height: 0.63;
   letter-spacing: normal;
   text-align: center;
-  color: #230000;
-
 }
 #PersonalQ{
-width: 400px;
+/* width: 400px; */
   height: 102px;
-  font-family: Rubik;
   font-size: 30px;
   font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.13;
-  letter-spacing: normal;
-  text-align: center;
   color: #000000;
+  margin-top: 30px;
 }
 .mainText{
-  width: 390px;
-  height: 335px;
   font-family: Rubik;
   font-size: 16px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.5;
+}
+.main_coupon{
+  width: 90%;
+  padding-left: 10%;
+}
+#customers1{
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 30px;
+  padding: 15px 12px;
+  background-color: #980000;
+  color: #ffffff;
+}
+#customers2{
+padding:20px 30px;
+}
+#customers3{
+  padding-bottom:20px;
+  }
+#español{
+  background-color:#000000;
+  color: #da9500; 
+  font-size: 36px;
+  font-weight: 500;
+  padding: 12px 55px;
+}
+#side_panel{
+  background-color: #230000;
+}
+#footer{
+  background-color:#000000;
+}
+#textbox{
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
   letter-spacing: normal;
   text-align: center;
-  color: #000000;
+  padding-left: 25%;
+  /* font-family: "Rubik-Regular"; */
 }
-/*Small devices (landscape phones, 576px and up)*/
-@media (min-width: 500px) { 
-
+#SaulName{
+  font-size:36px;
+  font-weight: 500;
 
 }
+.ft_logos{
+  padding-top: 41px;
+  padding-left: 10px;
+  width:50px;
+  
+}
+.buttons{
+  background-color:#ffffff;
+  border: none;
+  padding: 16px 28px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  text-decoration: none;
+  color:#000000;
+  border-radius: 8px;
+  font-size: 24px;
+  margin: 10%;
+  /* font-family: "Rubik-Regular"; */
 
+}
+.coupons{
+  width: 85%;
+    padding-left: 20%;
+    padding-bottom: 30px;
+}
+#ft_1logo{
+  margin-left: 90px;
+  
+}
+#ft_2logo{
+  width:80px;
+}
+#ft_3logo{
+  width:60px;
+}
+#ft_4logo{
+  margin-right: 90px;
+
+}
+#ftLogo{
+  padding-left: 20%;
+
+}
+#ftText{
+  padding-top: 22px;
+  color: #ffffff;
+  text-align: center;
+  padding-left:30%;
+  font-family: "Rubik-Regular";
+  letter-spacing: normal;
+  margin-bottom: 34px;
+}
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) { 
-
+  #ftLogo{padding-left: 30%;}
+  #ftText{padding-left:40%;}
+  /* .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  .dropdown .dropbtn {
+    font-size: 17px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  } */
 }
+
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) { 
-
+  #ftText{
+    padding-left:50%;
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) { 
+  #ftText{
+    padding-left:60%;
+  }
   #testMenu{
   width: 1366px;
   }

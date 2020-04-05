@@ -155,9 +155,11 @@ sup {
 }
 
 a {
-  color: #007bff;
-  text-decoration: none;
-  background-color: transparent;
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    /* [disabled]clear: left; */
+    float: left;
 }
 
 a:hover {
