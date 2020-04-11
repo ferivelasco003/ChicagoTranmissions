@@ -26,23 +26,6 @@ height: 120px;
 
   height: 120px;
 }
-/* .nav-link{
-  float:left;
-  background-color: #230000;
-  text-align: center;
-  color:#ffffff
-} */
-/* .row { position: relative; } */
-
-/* #Menu{
-  height: 80px;
-  background-color: #980000;
-  position: absolute;
-  background-color: #f9f9f9;
-  z-index: 1;
-  
-} */
-
 .main_image{
   width: 100%
   /* height: 229px;
@@ -106,14 +89,12 @@ height: 120px;
   font-weight: 500;
   line-height: 1.11;
   height: 80px;
-  white-space: nowrap;
 }
 #side_panel{
   background-color: #230000;
 }
 #footer{
   background-color:#000000;
-  z-index: 5;
 }
 #textbox{
   color: #ffffff;
@@ -132,13 +113,12 @@ height: 120px;
   font-weight: 500;
 
 }
-/* .ft_logos{
-  padding-top: 41%;
-    padding-left: 10%;
-    width: 50px;
-    padding-bottom: 50%;
+.ft_logos{
+  padding-top: 41px;
+  padding-left: 10px;
+  width:50px;
   
-} */
+}
 .buttons{
   background-color:#ffffff;
   border: none;
@@ -164,8 +144,8 @@ height: 120px;
     /* padding-left: 20%;
     padding-bottom: 30px; */
 }
-/* #ft_1logo{
-  margin-left: 20%;
+#ft_1logo{
+  margin-left: 90px;
   
 }
 #ft_2logo{
@@ -181,7 +161,7 @@ height: 120px;
 #ftLogo{
   padding-left: 20%;
 
-} */
+}
 #ftText{
   padding-top: 22px;
   color: #ffffff;
@@ -192,135 +172,46 @@ height: 120px;
   margin-bottom: 34px;
 }
 @media (min-width: 375px) {
-  #espText{
-    margin-left: -15%;
-  }
-  .buttons{
-    margin-left: 10%;
-  }
+
 }
 @media (min-width: 500px) {
-  
+  .main_coupon{
+    margin-left: 30%;
+  }
   header{
     width: 110%;
     }
 }
-@media (min-width: 500px){
-  #customers2{
-    padding-top: 0;
-  }
-  .coupons{
-    padding-left: 10%;
-    width: 100%;
-  }
-  
-}
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) { 
-  header{
-    padding: 0;
-    margin:0;
-  }
-  #PersonalQ{
-    
-  /* height: 174px; */
-  font-size: 30px;
-  font-weight: 500;
-  line-height: 1;
-  }
+  #header{}
   .main_coupon{
     padding: 7%;
-    width: 80%;
-    margin-left: -8%;
   }
-  #customers2{
-    padding-top: 0;
-  }
+  
   #side_panel{
-    clear: both;
-    /* margin-top: -78%; */
-    position: absolute;
-    margin-left: 65%;
-    width: 300px;
-    padding-bottom: 37%;
+    width: 40%;
   }
-  #español{
-    font-size:24px;
-    padding-top: 15px;
-}
-  
-  #SaulName {
-    width: 300px;
-    font-size: 24px;
-    line-height: 1.67;
+  #ftLogo{padding-left: 30%;}
+  #ftText{padding-left:40%;}
+  #side_panel{
+    width: 150%;
   }
-  #footer{
-    height: 30%;
-    padding-left: 30%;
-  }
-  .ft_logos{
-    padding-top: 11%;
-      padding-left: 10%;
-      width: 30%;
-      padding-bottom: 10%;
-      width: auto;
-    
-  }
-  /* #ftLogo{padding-left: 30%;} */
-  #ft_1logo{    margin-left: 70%;}
-  #ft_3logo{margin-left: -60%;}
-  #ft_4logo{margin-left: -120%;}
-  /* #ftText{padding-left:40%;} */
-  #customersbox{
-    margin-left: -18%;
-  }
-  
 }
 
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) { 
-  .main_image{
-    padding-left: 5%;
-    width: 800px;
-    height: 456px;
-  }
   #ftText{
     padding-left:50%;
   }
   #side_panel{
-    clear: both;
-    position: absolute;
-    margin-left: 70%;
-    width: 300px;
-    
-  }
-  #ftText{
-    padding-left: 40%
-  }
+    margin-top: -85%;
 }
+
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) { 
-  #side_panel{
-    clear: both;
-    position: absolute;
-    margin-left: 72%;
-    width: 300px;
-  }
   #ftText{
-    padding-left: inherit;
+    padding-left:60%;
   }
-  header{
-  width: 1366px;
-  }
-  #PersonalQ{
-  width: 914px;
-  height: 174px;
-  font-size: 48px;
-  font-weight: 500;
-  line-height: 1;
-  }
-  /* #ftLogo {
-    padding-left: 40%;
-} */
-}
+    }
