@@ -158,6 +158,7 @@ header ul li ul{
         padding-right: 40%;
         /* margin-top: 15%; */
     }
+    /* NEEDS TO CHANGE TO ACTIVE INSTEAD OF HOVER, HOVER JUST FOR TESTING PURPOSES */
     #Menu_link:hover  .nav-list {
         display: block;
         /* padding: 0 30px; */
