@@ -7,7 +7,8 @@
 	<!-- CSS -->
 	<link href="css/mainCSS.css" rel="stylesheet">
 	<link href="css/menu_css.css" rel="stylesheet">
-	<link href="css/mobile_css.css" rel="stylesheet">
+	<!-- <link href="css/mobile_css.css" rel="stylesheet"> -->
+	
 <!-- Bootstrap CSS-->
 	<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
 	
@@ -30,23 +31,29 @@
 			<!-- .col-sm-12 .col-md- -->
 		<!-- <div class="col-sm-12 col-md-12 "> -->
 			<header >
-				<ul >
+				<ul id="outerUL">
+						
+					<li id="Menu_link"> <a id="mobileLink" class="outerLink" href="#">MENU</a>
+						<!-- <div class="extraHeader"> </div> -->
+						<ul id="innerUL"> 
 							
-					<li id="menu_phone"></li><a class="outerLink" href="#">MENU</a>
+							<!-- //each one a column  -->
+							<li class="nav-list"><a class="outerLink" id= "HomeLnk" href="home.html">HOME</a></li>
+							<li class="nav-list"><a class="outerLink" href="services.html">SERVICES</a></li>
+							<li class="nav-list"><a class="outerLink" href="testimonials.html">TESTIMONIALS</a></li>
+							<li class="nav-list"><a class="outerLink" href="offers.html">OFFERS</a></li>
+							<li class="nav-list"><a class="outerLink" href="trans101.html">TRANS 101</a></li>
+							<li class="nav-list"><a class="outerLink" href="about.html">CONTACT US</a></li>
+						
+						</ul>
+					
 					</li>
-					<!-- //each one a column  -->
-					<li class="nav-list"><a class="outerLink" href="home.html">HOME</a></li>
-					<li class="nav-list"><a class="outerLink" href="services.html">SERVICES</a></li>
-					<li class="nav-list"><a class="outerLink" href="testimonials.html">TESTIMONIALS</a></li>
-					<li class="nav-list"><a class="outerLink" href="offers.html">OFFERS</a></li>
-					<li class="nav-list"><a class="outerLink" href="trans101.html">TRANS 101</a></li>
-					<li class="nav-list"><a class="outerLink" href="about.html">CONTACT US</a></li>
 				</ul>
 			</header>
 		</div>
 	</div>
 			
-
+	<div class="container-fluid" style="z-index: 5;">
 			<div class="row" id="main_content">
 				<div class="col-sm-12 col-md-7">
 					<h1 class="generalText" id="phone_num">
@@ -112,21 +119,23 @@
 						</p>
 					</div>
 					<div class="col-sm">
-						<a class="buttons" href="mailto:aachicagotransmission@hotmail.com">Email</a>
-						<a class="buttons" href="about.html">Directions</a>
+						<a class="buttons" id="email_btn" href="mailto:aachicagotransmission@hotmail.com">EMAIL</a>
+						<a class="buttons" id="dir_btn" href="about.html">DIRECTIONS</a>
 					</div>
 					
 					<div class="col-sm">
 						<img class="coupons" src="Images/friend.svg">
 					</div>
 					<div class="col-sm">
-						<img class="coupons" src="Images/cabbies.svg">
+						<img class="coupons" id="yellowCpn" src="Images/cabbies.svg">
 					</div>
 				</div>
 			</div>
 
+			<div class="clearfix"> </div>
+	</div>
 		<div id="footer">
-			<div  >
+			<div>
 				<img class="ft_logos" id="ft_1logo" src="Images/bbb.svg" >
 			</div>
 			<div >
@@ -135,22 +144,48 @@
 			<div >
 				<img class="ft_logos" id="ft_3logo" src="Images/path.svg" >
 			</div>
-			<div  >
+			<div>
+				<img class="ft_logos"  id="ft_4logo" src="Images/shape.svg">
+			</div>
+			<img src="Images/logo-2.svg" id="ftLogo"/>	
+
+			<p class="mainText" id="ftText">773.276.8900<br>
+				4431 W. Diversey<br>
+				Chicago, IL 60639<br>
+				®2020</p>
+		</div>
+	
+</body>
+</html>
+		 
+			<!-- <div class="clearfix"> </div>
+		<div class="row" id="footer">
+			<div  class="col-3">
+				<img class="ft_logos" id="ft_1logo" src="Images/bbb.svg" >
+			</div>
+			<div class="col-3">
+				<img class="ft_logos" id="ft_2logo"src="Images/atra.svg" >
+			</div>
+			<div class="col-3">
+				<img class="ft_logos" id="ft_3logo" src="Images/path.svg" >
+			</div>
+			<div class="col-3" >
 				<img class="ft_logos"  id="ft_4logo" src="Images/shape.svg">
 			</div>
 			
 			
 		</div>
-		<div  id="footer">
+	
+		<div class="row" id="footer">
 			<img src="Images/logo-2.svg" id="ftLogo"/>	
 		</div>
-		<div  id="footer">
+		<div class="row" id="footer">
 			<p class="mainText" id="ftText">773.276.8900<br>
 				4431 W. Diversey<br>
 				Chicago, IL 60639<br>
 				®2020</p>
 			
-		</div>
+		</div>  -->
 	<!-- <div class="row">
 		<div class="col-sm">
 			<div id="textbox">
@@ -170,7 +205,7 @@
 			<a class="buttons" href="mailto:aachicagotransmission@hotmail.com">Email</a>
 			<a class="buttons" href="about.html">Directions</a>
 		</div>
-	</div> -->
-	
+	</div>
+</div>
 </body>
 </html>

@@ -75,7 +75,11 @@ height: 120px;
 .main_coupon{
   width: 100%;
   padding: 3%;
+  background-color: #ffffff;
+  border-radius: 8px;
+  /* border: solid 3px #979797; */
 }
+
 #customers1{
   font-size: 24px;
   font-weight: 500;
@@ -106,14 +110,16 @@ height: 120px;
   font-weight: 500;
   line-height: 1.11;
   height: 80px;
+  
   white-space: nowrap;
 }
 #side_panel{
   background-color: #230000;
+  
 }
 #footer{
   background-color:#000000;
-  z-index: 5;
+  z-index: 5000;
 }
 #textbox{
   color: #ffffff;
@@ -132,13 +138,13 @@ height: 120px;
   font-weight: 500;
 
 }
-/* .ft_logos{
+.ft_logos{
   padding-top: 41%;
     padding-left: 10%;
     width: 50px;
     padding-bottom: 50%;
   
-} */
+}
 .buttons{
   background-color:#ffffff;
   border: none;
@@ -155,8 +161,9 @@ height: 120px;
   font-size: 24px;
   margin-left: 4%;
   margin-top: 6%;
-  /* font-family: "Rubik-Regular"; */
-
+}
+#email_btn{
+  margin-left: 15%;
 }
 .coupons{
   width: 110%;
@@ -164,7 +171,7 @@ height: 120px;
     /* padding-left: 20%;
     padding-bottom: 30px; */
 }
-/* #ft_1logo{
+#ft_1logo{
   margin-left: 20%;
   
 }
@@ -181,7 +188,7 @@ height: 120px;
 #ftLogo{
   padding-left: 20%;
 
-} */
+}
 #ftText{
   padding-top: 22px;
   color: #ffffff;
@@ -198,6 +205,18 @@ height: 120px;
   .buttons{
     margin-left: 10%;
   }
+  #email_btn{
+    float: left;
+    width: 50%;
+        margin-right: -7%;
+    margin-left: -3%;
+    /* height: 60px; */
+  }
+  #dir_btn{
+    margin-left: 15%;
+    width: 55%;
+  }
+
 }
 @media (min-width: 500px) {
   
@@ -243,6 +262,14 @@ height: 120px;
     margin-left: 65%;
     width: 300px;
     padding-bottom: 37%;
+    z-index: 5 ;
+  }
+  .coupons{
+    width: 260px;
+    height: 133.3px;
+    margin-top: 20%;
+    margin-left: -13%;
+    padding: inherit;
   }
   #español{
     font-size:24px;
@@ -254,9 +281,23 @@ height: 120px;
     font-size: 24px;
     line-height: 1.67;
   }
+  .buttons{
+    margin-top: 15%;
+  } 
+ 
+  #email_btn{
+    width: 168px;
+      height: 60px;
+      margin-left: 30%;
+  }
+  #dir_btn{
+    width: 195px;
+    height: 60px;
+  } 
   #footer{
     height: 30%;
     padding-left: 30%;
+    z-index: 5000;
   }
   .ft_logos{
     padding-top: 11%;
@@ -285,6 +326,11 @@ height: 120px;
     width: 800px;
     height: 456px;
   }
+  #phone_num{
+    font-size: 65px;
+    padding: 3% 0;
+    padding-left: 15%;
+  }
   #ftText{
     padding-left:50%;
   }
@@ -297,6 +343,18 @@ height: 120px;
   }
   #ftText{
     padding-left: 40%
+  }
+  #customersbox{
+    margin-left: -15%;
+  }
+  .main_coupon{
+    margin-left: -5%;
+  }
+  .coupons{
+    margin-left: 0%;
+  }
+  #yellowCpn{
+    margin-top: 5%;
   }
 }
 /* Extra large devices (large desktops, 1200px and up)*/
@@ -319,6 +377,11 @@ height: 120px;
   font-size: 48px;
   font-weight: 500;
   line-height: 1;
+  }
+  #phone_num{
+    font-size: 72px;
+    padding: 3% 0;
+    padding-left: 20%;
   }
   /* #ftLogo {
     padding-left: 40%;

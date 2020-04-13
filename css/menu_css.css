@@ -9,6 +9,7 @@ header{
 background: #980000;
 padding-top: 20px;
 padding-bottom:20px;
+height: 80px;
 }
 header ul{
     display: flex;
@@ -33,9 +34,6 @@ header ul li:last-child{
 border-right: none;
 
 }
-#menu_phone{
-    visibility: hidden;
-}
 header ul li a {
     font-weight: normal;
   font-stretch: normal;
@@ -57,23 +55,42 @@ header ul li a:hover {
   }
  header ul li ul{
     position: absolute;
-    top:38px;
+    /* top:38px; */
     left:0;
     display: block;
-    width: 200px;
+    /* width: 200px; */
     transition: 0.5s;
-    opacity: 0;
-    visibility: hidden;
+    
 }
 
-
-header ul li ul li{
-    border-right: none;
-    padding-block-start: 0%;
-    background-color: #230000;
+header ul li ul{
+    padding-bottom: 10px;
+}
+#innerUL{
+    display: inline-flex;
+}
+#mobileLink{
+    display: none;
+}
+.outerLink{
+    white-space: nowrap;
+}
+@media(max-width:1500px){
+    /* #innerUL{
+        margin-left: -250px;
+    } */
+    header ul li a {
+        font-size: 24px;
+    }
 }
 @media(max-width:1000px){
     header ul{padding-left: 0;}
+    /* #innerUL{
+        margin-left: -120px;
+    } */
+    header ul li a {
+        font-size: 24px;
+    }
 }
 @media(max-width:800px){
     header ul{
@@ -81,7 +98,14 @@ header ul li ul li{
         border-radius: 9px;
         width: 500px;
     }
+    /* #innerUL{
+        margin-left: -70px;
+    } */
+    header ul li a {
+        font-size: 24px;
+    }
 }
+  
 @media(min-width:768px){
     header ul li a {
         font-size: 15px;
@@ -89,50 +113,100 @@ header ul li ul li{
    
 }
 @media(max-width:768px){
-    /* header ul{
-        background-color: #230000;
-        border-radius: 8px;
-        /* width: 460px; */
-        /* height: 47px;
-        padding-left: -10%;
-    }
-    #menu_phone{
-        visibility: visible;
-        
-    }
-    header ul li a{
+    .nav-list{
+        display: none;
+     } 
+     #mobileLink{
+        display: block;
         font-size: 18px;
     }
-    .nav-list{
-        opacity: 0;
-        visibility: hidden;
-     } */ 
-     /* #menu_phone:hover .nav-list{
-        visibility: visible;
+    #Menu_link{
         display: block;
-        opacity: 1;
-     } */
-    /* header ul:active{
-    /* opacity: 1; */
-    /* display: block;
-    visibility: visible;
-    width: 100px;
+        text-decoration: none;
+    }
+    header {
+    background: #980000;
+    padding-top: 20px;
+    padding-bottom:20px;
+    height: 40%;
+        
+    }
+    header ul{
+        background-color: #230000;
+        border-radius: 8px;
+        width: 560px;
+        /* width: 460px; */
+        /* height: 47px; */
+        padding-left: -10%;
+    border: none;
+    cursor: pointer;
     }
     
+    header ul li a {
+        text-decoration: none;
+        /* padding: 10px 20px; */
+        color: white;
+        display: block;
+    } 
+   
     header ul li{
         display: block;
-        background-color: #f1f1f1
-    } */ 
-    /* header ul li ul{
-        width:100%;
+    }
+    header ul li ul{
+        width: 200px;
         z-index: 1;
-    } */
+        padding-right: 40%;
+        /* margin-top: 15%; */
+    }
+    #Menu_link:hover  .nav-list {
+        display: block;
+        /* padding: 0 30px; */
+        /* width: 50px; */
+        background-color: #230000;
+     } 
+     #Menu_link:hover .extraHeader{
+        background: #980000;
+        height: 400px;
+    }
+    
+    header > ul > li:hover  {
+        height: 400px;
+    }
+   
+     .nav-list{
+        width: 100px;
+    }
+    #HomeLnk{
+        padding-top: 30px;
+    }
+    #innerUL{
+        display: inline;
+        margin-top: 25px;
+        margin-left: 0px;
+    }
+    
     
 } 
-@media(max-width:375px){
+@media(min-width:500px){
     header ul{
+        width: 80%;
+    }
+    /* #innerUL{
+        display: inline;
+        width: 460px;
+    } */
+}
+@media(max-width:375px){
+    header{
         width: 375px;
+    }
+    header ul{
+        width: 340px;
         margin-left: 5%;
         margin-right: -15%;
     }
+    /* #innerUL{
+        display: inline;
+        width: 340px;
+    } */
 }
