@@ -1,0 +1,76 @@
+@charset "UTF-8";
+/* CSS Document 375px Small Phone size*/
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,500&display=swap');
+
+.bodyContent{
+    /* width: 385px; */
+}
+span.BItext{
+    font-weight: 500;
+    font-style: italic;
+  }
+.generalText{
+    font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.61;
+  letter-spacing: normal;
+  text-align: left;
+}
+.title{
+    font-size: 36px;
+  font-weight: 500;
+  line-height: 1.06;
+
+}
+#title3{
+    /* white-space: nowrap; */
+}
+#greenTitle{
+    color:#026b07;
+}
+.buttons{
+    width: 255px;
+  height: 60px;
+  border-radius: 8px;
+  border: solid 2px #979797;
+  background-color: #ffffff;
+}
+#cp1{
+   margin: auto; 
+}
+#cp2{
+    margin: auto; 
+    color: #026b07;
+ }
+ #cp3{
+    margin: auto; 
+    background-color:#da9500;
+    border: none;
+ }
+ .bodyContent{
+    margin: 0% 9%;
+    margin-top: 7%;
+    clear: both;
+}
+@media (min-width: 375px){
+
+}
+@media (min-width: 500px){
+
+}
+@media (min-width: 768px) { 
+    .inside-panel { height: 1187px;}
+    
+    .main-ctn{
+        /* width: 385px; */
+        /* height: 1212px; */
+    }
+}
+@media (min-width: 992px) { 
+
+}
+@media (min-width: 1200px) { 
+
+}
