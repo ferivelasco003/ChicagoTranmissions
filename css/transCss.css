@@ -1,7 +1,10 @@
 
 
 
-
+ .bodyContent{
+    margin: 0% 9%;
+    clear: both;
+}
 
 
 
@@ -12,11 +15,11 @@
 
 }
 @media (min-width: 768px) { 
-
+    .bodyContent{ margin-top: 7%;}
 }
 @media (min-width: 992px) { 
 
 }
 @media (min-width: 1200px) { 
-    
+    .inside-panel { height: 1187px;}
 }

@@ -22,7 +22,7 @@ span.BItext{
     font-size: 36px;
   font-weight: 500;
   line-height: 1.06;
-
+  padding-top: 15%;
 }
 #title3{
     /* white-space: nowrap; */
@@ -39,6 +39,7 @@ span.BItext{
 }
 #cp1{
    margin: auto; 
+   
 }
 #cp2{
     margin: auto; 
@@ -51,9 +52,19 @@ span.BItext{
  }
  .bodyContent{
     margin: 0% 9%;
-    margin-top: 7%;
     clear: both;
 }
+#EspText{
+    background-color:#000000;
+    color: #da9500; 
+    font-size: 36px;
+    font-weight: 500;
+    padding: 12px 55px;
+    font-weight: 500;
+    line-height: 1.11;
+    height: 80px;
+    white-space: nowrap;
+  }
 @media (min-width: 375px){
 
 }
@@ -61,16 +72,26 @@ span.BItext{
 
 }
 @media (min-width: 768px) { 
-    .inside-panel { height: 1187px;}
+    .inside-panel { max-height: 1350px;}
     
+    .bodyContent{ margin-top: 7%;}
     .main-ctn{
         /* width: 385px; */
         /* height: 1212px; */
     }
+    #p2{
+        width: 385px;
+    }
+    #p3{
+        width: 385px;
+    }
+}
+@media (min-width: 800px){
+    .inside-panel { max-height: 1290px;}
 }
 @media (min-width: 992px) { 
-
+    .inside-panel { max-height: 1250px;}
 }
 @media (min-width: 1200px) { 
-
+    .inside-panel { height: 1187px;}
 }

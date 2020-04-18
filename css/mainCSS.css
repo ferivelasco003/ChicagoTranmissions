@@ -99,7 +99,7 @@ height: 120px;
     padding-bottom:20px;
     padding: 3%
     }
-#español{
+.español{
   background-color:#000000;
   color: #da9500; 
   font-size: 36px;
@@ -295,6 +295,7 @@ height: 120px;
     padding: 0;
     margin:0;
   }
+ 
   #phone_num{
     padding: 3% 0;
     
@@ -344,7 +345,7 @@ height: 120px;
   #yellowCpn{
     margin-top: 10%;
   }
-  #español{
+  .español{
     font-size:24px;
     padding-top: 15px;
   height: 40px;
