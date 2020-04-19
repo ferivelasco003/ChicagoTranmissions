@@ -72,8 +72,8 @@ span.BItext{
 
 }
 @media (min-width: 768px) { 
-    .inside-panel { max-height: 1350px;}
-    
+    /* .inside-panel { max-height: 1350px;} */
+    .inside-panel{height: 100%;}
     .bodyContent{ margin-top: 7%;}
     .main-ctn{
         /* width: 385px; */
@@ -87,11 +87,11 @@ span.BItext{
     }
 }
 @media (min-width: 800px){
-    .inside-panel { max-height: 1290px;}
+    /* .inside-panel { max-height: 1290px;} */
 }
 @media (min-width: 992px) { 
-    .inside-panel { max-height: 1250px;}
+    /* .inside-panel { max-height: 1250px;} */
 }
 @media (min-width: 1200px) { 
-    .inside-panel { height: 1187px;}
+    /* .inside-panel { height: 1187px;} */
 }

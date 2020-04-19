@@ -1,22 +1,64 @@
+.titles{
+    font-size: 28px;
+  font-weight: 500;
+}
+ .bodyContent{
+    margin: 0% 9%;
+    clear: both;
+}
+.boldTxt{
+    font-weight: 500;
+}
+.main-ctn{
+    padding-top:30px
+}
+.generalTextGrey{
+        font-size: 18px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.61;
+        letter-spacing: normal;
+        color: #000000;
+      padding-top: 15px;
+}
 
+.greybxTxt{
+    margin:10%
+}
 
-
-
-
-
-
+.logos{
+    padding: 3% 3%;
+}
+.inside-panel{height: 100%;}
 @media (min-width: 375px){
 
 }
 @media (min-width: 500px){
-
+    .logos {
+        padding: 3% 23%;
 }
 @media (min-width: 768px) { 
-
+    #greyBox{
+        width: 390px;
+        height: 567px;
+        border-radius: 8px;
+        background-color: #dedede;
+    }
+    #warranties{
+        padding-top: 10%;
+    }
+    #side_panel{
+        margin-left: 0;
+    }
 }
-@media (min-width: 992px) { 
-
+@media (min-width: 840px) { 
+    #side_panel{
+        margin-left: -2%;
+    }
 }
 @media (min-width: 1200px) { 
-    
+    .logos{
+        padding: 10% 10%;
+    }
 }

@@ -1,13 +1,34 @@
-
-
-
+ .titles{
+    font-size: 28px;
+  font-weight: 500;
+}
  .bodyContent{
     margin: 0% 9%;
     clear: both;
 }
-
-
-
+.boldTxt{
+    font-weight: 500;
+}
+.italicTxt{
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 400;
+}
+.generalText{
+  text-align: left;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.61;
+  letter-spacing: normal;
+} 
+.main-ctn{
+    padding-top:30px
+}
+#p1{padding-top:20px;}
+#title2{padding-top:30px}
+.inside-panel{height: 100%;}
 @media (min-width: 375px){
 
 }
@@ -16,10 +37,12 @@
 }
 @media (min-width: 768px) { 
     .bodyContent{ margin-top: 7%;}
+    #p4{padding-top:60px;}
+    
 }
 @media (min-width: 992px) { 
-
+    /* .inside-panel { min-height:  1825px;} */
 }
 @media (min-width: 1200px) { 
-    .inside-panel { height: 1187px;}
+    /* .inside-panel { height:  1825px;} */
 }
