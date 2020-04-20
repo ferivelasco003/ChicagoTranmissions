@@ -61,10 +61,11 @@ height: 120px;
 .main_coupon{
   width: 80%;
   padding: 3%;
-
   border-radius: 8px;
   margin-left: 10%;
-  
+}
+.middleDiv{
+  margin-top: -25%;
 }
 .costumersbox{
   width: 0px; 
@@ -148,6 +149,7 @@ height: 120px;
   font-size: 24px;
   margin-left: 4%;
   margin-top: 6%;
+  white-space: nowrap;
 }
 #email_btn{
   margin-left: 15%;
@@ -317,6 +319,9 @@ height: 120px;
     margin-left: -6%;
     padding-left: 48px;
   }
+  .middleDiv{
+    margin-top: -18%;
+  }
   #customers1{
     width: 90%;
     font-size: 18px;
@@ -330,7 +335,7 @@ height: 120px;
   }
   #side_panel{
     margin-left: -2%;
-    background-color: #ffffff;
+    background-color: transparent;
   }
   #top_cpn{
     margin-top: 20%;

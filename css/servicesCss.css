@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .titles{
     font-size: 28px;
   font-weight: 500;
@@ -12,6 +13,7 @@
 .main-ctn{
     padding-top:30px
 }
+
 .generalTextGrey{
         font-size: 18px;
         font-weight: normal;
@@ -39,6 +41,9 @@
         padding: 3% 23%;
 }
 @media (min-width: 768px) { 
+    .bodyContent {
+        margin-top: 7%;
+    }
     #greyBox{
         width: 390px;
         height: 567px;

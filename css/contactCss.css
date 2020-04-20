@@ -1,9 +1,63 @@
+.bodyContent {
+    margin: 0% 9%;
+    clear: both;
+    padding: 2% 0%;
+    }
+.extraBold{
+    font-size: 18px;
+    font-weight: 700;
+}
+.boldTxt{
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.titles{
+    font-size: 28px;
+  font-weight: 500;
+}
+.generalText{
+    text-align: left;}
 
+#cp1{
+    margin: auto; 
+    
+ }
+ .buttons{
+    width: 195px;
+  height: 60px;
+  border-radius: 8px;
+  border: solid 2px #979797;
+  background-color: #ffffff;
+}
+#emailLink{
+    color:#000000;
+    text-decoration: none;
+}
+.cardImg{
+    width: 89px;
+  height: 58px;
+  object-fit: contain;
+}
+#discoverCard{
+        margin-left: 280px;
+        margin-top: -79px;
+}
+.googleMap{
+    border: solid 2px #979797;
+    width: 100%;
+    height: 300px;
+    }
 
+.generalText{
+    font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.61;
+  letter-spacing: normal;
+  color: #000000;
 
-
-
-
+}
 
 @media (min-width: 375px){
 
@@ -12,11 +66,35 @@
 
 }
 @media (min-width: 768px) { 
+    .googleMap{
+        width:100%;
+        height:450px;
+        border: solid 2px #979797;
+    }
+    .left-box{
+        float: left;
+        width: 359px;
 
+    }
+    .right-box{
+        margin-right: -15%;
+        float: right;
+        width: 359px;
+        margin-top: -250px;
+    }
+    .right-txt-box{
+        padding-top: 25%;
+    }
+    .cardDiv{
+        margin-top: 40px;
+    }
 }
 @media (min-width: 992px) { 
 
 }
 @media (min-width: 1200px) { 
-    
+    .googleMap{
+        width:914px;
+        height:456px;
+    }
 }
