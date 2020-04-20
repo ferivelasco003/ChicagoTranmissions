@@ -23,12 +23,11 @@ header ul li{
     
     list-style: none;
     position: relative;
-    /* padding: 10px 0px; */
     transition: 0.5s;
     box-sizing: border-box;
     transition: 0.5s;
-    /* padding:5px; */
-    /* margin-left: 25px ; */
+     padding:0px 17px; 
+    margin-left: -24px ; 
 }
 
 header ul li:last-child{
@@ -36,10 +35,13 @@ border-right: none;
 
 }
 #testimonials{
-    margin-left: 0.9%;
+    margin-left: -0.7%
 }
 #contact{
-    margin-left: 1%;
+    margin-left: -2.8%;
+}
+#trans{
+    margin-left: -1.6%;
 }
 #offers{
     margin-left: -1.6%;

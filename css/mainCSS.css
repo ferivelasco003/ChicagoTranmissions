@@ -116,7 +116,7 @@ height: 120px;
   background-color: #230000;
 }
 
-#textbox{
+.textbox{
   color: #ffffff;
   font-size: 24px;
   font-weight: normal;
@@ -289,7 +289,7 @@ height: 120px;
     background-size: 100%;
   }
   .logo-2 {
-    margin-left: 28.2%;
+    margin-left: 22.2%;
     width: 547.5px;
     padding-top: 41px;
 }
@@ -439,7 +439,7 @@ height: 120px;
     padding-left: 5%;
   }
   #espText{
-    margin-left: 5%;
+    margin: -3px -20px;
   }
   /* #ftText{
     padding-left: 40%
@@ -466,14 +466,29 @@ height: 120px;
 
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) { 
+  .logo-2 {
+    margin-left: 30.2%;}
   .main_image{
     width: 914px;
     height: 456px;
+    margin-top: -13px;
+    margin-left: 5.5%;
   }
   #side_panel{
     clear: both;
     width: 300px;
     padding-left: 10%;
+  }
+  .inside-panel{
+    margin-left: -1.8%;
+  }
+  .textbox{
+    padding-top:15px;
+    margin-left: -9px;
+  }
+  #shopMG{
+    margin-top:-18px;
+    margin-left: -4px;
   }
   #ftText{
     padding-left: inherit;
@@ -488,14 +503,12 @@ height: 120px;
   font-weight: 500;
   line-height: 1;
   margin-top: auto;
-
   }
   #phone_num{
     font-size: 72px;
     padding: 3% 0;
-    margin-left: 8%;
+    margin-left: 11%;
     margin-top: 3px;
-    /* padding-left: 20%; */
   }
   #ftLogo {
     padding-left: 40%;
