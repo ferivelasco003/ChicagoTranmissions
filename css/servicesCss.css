@@ -2,6 +2,7 @@
 .titles{
     font-size: 28px;
   font-weight: 500;
+  white-space: nowrap;
 }
  .bodyContent{
     margin: 0% 9%;
@@ -9,6 +10,15 @@
 }
 .boldTxt{
     font-weight: 500;
+    white-space: nowrap;
+}
+.extraBold{
+    font-weight: bold;
+    font-weight: 500;
+    white-space: nowrap;
+}
+#commercialV{
+    white-space: normal;
 }
 .main-ctn{
     padding-top:30px
@@ -32,9 +42,13 @@
 .logos{
     padding: 3% 3%;
 }
+
 .inside-panel{height: 100%;}
 @media (min-width: 375px){
-
+    .bodyContent{
+        margin: 0% 9%;
+        clear: both;
+    }
 }
 @media (min-width: 500px){
     .logos {
@@ -42,7 +56,11 @@
 }
 @media (min-width: 768px) { 
     .bodyContent {
-        margin-top: 7%;
+        
+        margin: 4% 15%;
+    }
+    .main-ctn{
+        padding-top:70px
     }
     #greyBox{
         width: 390px;
@@ -56,6 +74,9 @@
     #side_panel{
         margin-left: 0;
     }
+    #whiteCpn{
+        margin-top: 10%;
+    }
 }
 @media (min-width: 840px) { 
     #side_panel{
@@ -66,4 +87,8 @@
     .logos{
         padding: 10% 10%;
     }
+    #main-ctn1{
+        padding-left: 11%;
+    }
 }
+
