@@ -169,7 +169,6 @@ height: 120px;
 }
 .ft_logos{
   margin-left: 5%;
-  /* padding: 10px 0; */
   margin-top: 40px;
   margin-bottom: 40px;
 }
@@ -408,7 +407,11 @@ height: 120px;
     
   } */
   #ftLogo{padding-left: 30%;}
-  /* #ft_1logo{    margin-left: 70%;}
+  #ft_Logos{
+    margin-left: 3.1%;
+  }
+  #ft_1logo{    margin-left: 39%;} 
+  /* /* 
   #ft_3logo{margin-left: -60%;}
   #ft_4logo{margin-left: -120%;} */
   /* #ftText{padding-left:40%;} */
@@ -477,8 +480,8 @@ height: 120px;
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) { 
   .logo-2 {
-    margin-left: 38.5%;
-    margin-left: 3%;
+    margin-left: 30.2%;
+    
   }
   .main_image{
     width: 914px;
@@ -527,10 +530,9 @@ height: 120px;
 }
 @media (min-width: 1300px){
   .main_coupon{
-    margin-left: 5%;
-    margin-top: 3%;
-    width: 390px;
-    height: 200px;
+    width: 59.2%;
+    margin-left: 0.1%;
+    margin-top: 3.2%;
     object-fit: contain;
   }
   #customers2{
@@ -540,11 +542,11 @@ height: 120px;
     margin-bottom: -5%;
     margin-top: -1%;
     padding-right: 0%;
-    line-height: 1.61px;
     font-size: 18px;
   }
 .middleDiv{
   margin-left: 7%;
+  margin-top: 0%2;
 }
 #customers1{
   margin-top: 13%;
@@ -554,13 +556,13 @@ height: 120px;
 #customersbox{
   margin-left: 0%;
   margin-right: -4.5%;
-  margin-top: -29%;
+  margin-top: -33.5%;
 }
 #customers4{
   padding-top: 0%;
   padding: 0%;
-  padding-left: 50%;
-  padding-right: 50%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 .inside-panel{
   height: 1245px;
