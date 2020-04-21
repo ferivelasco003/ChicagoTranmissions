@@ -94,11 +94,14 @@ height: 120px;
 }
 #customers3{
   padding-bottom:20px;
+  font-size: 14px;
   }
   #customers4{
     padding-top: 5%;
     padding-bottom:20px;
-    padding: 3%
+    padding: 3%;
+    font-size: 14px;
+    line-height: 1.43;
     }
 .español{
   background-color:#000000;
@@ -328,10 +331,14 @@ height: 120px;
     margin-left: 5%;
   }
   #customers2{
-    padding-top: 0;
-    padding-left: 10%;
-    padding-right: 10%;
+    /* padding-top: 0;
+    padding-left: 15.9%;
+    padding-right: 10%; */
     margin-bottom: -5%;
+    /* margin-top: -1%;
+    padding-right: 0%;
+    line-height: 1.61px; */
+    font-size: 16px;
   }
   #side_panel{
     margin-left: -2%;
@@ -355,30 +362,37 @@ height: 120px;
     padding-top: 15px;
   height: 40px;
 }
-#espText{
+/* #espText{
   margin-left: -25%;
+} */
+#espText{
+  margin: -3px -20px;
 }
-
   #SaulName {
-    /* width: 300px;
-    font-size: 24px; */
     line-height: 1.67;
     font-size: 36px;
   font-weight: 500;
   }
+  #address{
+    padding-top: 20px;
+  }
+  #shopMG{
+    margin-top:-18px;
+    margin-left: -4px;
+  }
   .buttons{
-    margin-top: 15%;
+    margin-top: 18%;
   } 
  
   #email_btn{
     width: 168px;
       height: 60px;
-      margin-left: 48%;
+      margin-left: 43%;
   }
   #dir_btn{
     width: 195px;
     height: 60px;
-    margin-left: 38%;
+    margin-left: 33%;
   } 
   #footer{
     /* height: 30%;
@@ -406,18 +420,16 @@ height: 120px;
   }
   .inside-panel{
     background-color: #230000;
-    height: 1501px;
+    height: 100%;
+    /* height: 1501px; */
     width: 280px;
   }
 }
 @media (min-width: 800px) { 
     .coupons{
       width: fit-content;
-      padding: 0 4%;
-      /* padding: inherit;
-      margin-left: 6%; */
-    }
-    
+      padding: 0 5.5%;
+    } 
 }
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) { 
@@ -438,9 +450,7 @@ height: 120px;
     /* padding-left: 138px; */
     padding-left: 5%;
   }
-  #espText{
-    margin: -3px -20px;
-  }
+  
   /* #ftText{
     padding-left: 40%
   } */
@@ -467,7 +477,9 @@ height: 120px;
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) { 
   .logo-2 {
-    margin-left: 30.2%;}
+    margin-left: 38.5%;
+    margin-left: 3%;
+  }
   .main_image{
     width: 914px;
     height: 456px;
@@ -486,23 +498,22 @@ height: 120px;
     padding-top:15px;
     margin-left: -9px;
   }
-  #shopMG{
-    margin-top:-18px;
-    margin-left: -4px;
-  }
+  
   #ftText{
     padding-left: inherit;
   }
   header{
   width: 1366px;
   }
+  
   #PersonalQ{
   width: 914px;
   height: 174px;
   font-size: 48px;
   font-weight: 500;
   line-height: 1;
-  margin-top: auto;
+  margin-top: -20px;
+  margin-left: 5.5%;
   }
   #phone_num{
     font-size: 72px;
@@ -513,4 +524,44 @@ height: 120px;
   #ftLogo {
     padding-left: 40%;
   }
+}
+@media (min-width: 1300px){
+  .main_coupon{
+    margin-left: 5%;
+    margin-top: 3%;
+    width: 390px;
+    height: 200px;
+    object-fit: contain;
+  }
+  #customers2{
+    padding-top: 0;
+    padding-left: 15.9%;
+    padding-right: 10%;
+    margin-bottom: -5%;
+    margin-top: -1%;
+    padding-right: 0%;
+    line-height: 1.61px;
+    font-size: 18px;
+  }
+.middleDiv{
+  margin-left: 7%;
+}
+#customers1{
+  margin-top: 13%;
+    width: 390px;
+    height: 48px;
+}
+#customersbox{
+  margin-left: 0%;
+  margin-right: -4.5%;
+  margin-top: -29%;
+}
+#customers4{
+  padding-top: 0%;
+  padding: 0%;
+  padding-left: 50%;
+  padding-right: 50%;
+}
+.inside-panel{
+  height: 1245px;
 }
