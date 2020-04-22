@@ -100,7 +100,7 @@ header ul li ul{
     }
 }
 @media(max-width:1000px){
-    header ul{padding-left: 0;}
+    
     /* #innerUL{
         margin-left: -120px;
     } */
@@ -110,18 +110,20 @@ header ul li ul{
     #HomeLnk{
         margin-left: 0;
     }
-    #innerUL{
-        margin-left: -100px;
-    }
+    
     .outerLink{
         padding: 0 10px;
     }
 }   
 @media(max-width:800px){
     header ul{
-        padding-left: -10%;
+        /* padding-left: -10%; */
         border-radius: 9px;
         width: 500px;
+        padding-left: 0;
+    }
+    #innerUL{
+        margin-left: -100px;
     }
     
 }

@@ -173,12 +173,24 @@ height: 120px;
     /* padding-left: 20%;
     padding-bottom: 30px; */
 }
+#whiteCpn{
+  
+  border: solid 3px #979797; 
+ background-color: #ffffff; 
+  width: 260px;
+  border-radius: 8px;
+  padding: 0px 0px;
+  margin: 10% 7%;
+}
 #footer{
   background-color:#000000;
   height: 315px;
 }
+.logosFt{
+  padding-bottom: 25px;
+}
 .ft_logos{
-  margin-left: 5%;
+  margin-left: 3.1%;
   margin-top: 40px;
   margin-bottom: 40px;
 }
@@ -297,6 +309,9 @@ height: 120px;
   #email_btn{
     margin-left: 16%;
     width: 168px;
+  }
+  #ft_1logo{
+    margin-left: 25%;
   }
 }
 /* Medium devices (tablets, 768px and up)*/
@@ -424,7 +439,7 @@ height: 120px;
   #ft_Logos{
     margin-left: 3.1%;
   }
-  #ft_1logo{    margin-left: 39%;} 
+  #ft_1logo{    margin-left: 38.4%;} 
   /* /* 
   #ft_3logo{margin-left: -60%;}
   #ft_4logo{margin-left: -120%;} */
@@ -440,6 +455,7 @@ height: 120px;
     height: 100%;
     /* height: 1501px; */
     width: 280px;
+    margin-left: -10%;
   }
 }
 @media (min-width: 800px) { 
@@ -447,6 +463,9 @@ height: 120px;
       width: fit-content;
       padding: 0 5.5%;
     } 
+}
+@media (min-width: 798px) { 
+  .inside-panel{margin-left: 0%;}
 }
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) { 

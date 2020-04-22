@@ -21,7 +21,8 @@
     white-space: normal;
 }
 .main-ctn{
-    padding-top:30px
+    padding-top:30px;
+    margin-left: -3%;
 }
 
 .generalTextGrey{
@@ -34,11 +35,17 @@
         color: #000000;
       padding-top: 15px;
 }
-
+#automaticTxt{
+    margin-top: -20px;
+}
+#transmissionTxt{
+    margin-top: -20px;
+}
+#four-wheel{margin-top: -20px;}
 .greybxTxt{
     margin: 1% 8%
 }
-
+#manual{margin-top: -20px;}
 .logos{
     padding: 3% 3%;
 }
@@ -85,14 +92,7 @@
     #side_panel{
         margin-left: 0;
     }
-    #whiteCpn{
-        margin-top: 10%;
-        /* border: solid 3px #979797; */
-        background-color: #ffffff;
-        width: 260px;
-        border-radius: 8px;
-        padding:0px 10px;
-    }
+    
 }
 @media (min-width: 840px) { 
     #side_panel{
@@ -102,7 +102,8 @@
 @media (min-width: 1200px) { 
     #main-ctn2{
         float: right;
-        margin-top: -1048px;
+        /* margin-top: -1048px; */
+        margin-top: -970px;
         margin-right: -20%;
     }
     .logos{
@@ -110,7 +111,8 @@
     }
     #GoldenLogo{
         margin-top: -3%;
-        margin-left: 20%;
+        /* margin-left: 20%; */
+        margin-left: 16%;
     }
     #main-ctn1{
         /* padding-left: 11%; */
@@ -120,8 +122,9 @@
         margin-bottom: 10%;
     }
     .Nationwide{
-        margin-left: 10%;
+        /* margin-left: 10%; */
         margin-top: 0%;
+        margin-left: 5%;
     }
     #AAChicagoTxt{
         margin: 4% 0%;

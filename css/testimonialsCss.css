@@ -18,28 +18,61 @@
     #p4{
         padding-top: 0px;
     }
+    #p2{
+        padding-top: 42px;
+    }
     #emailLink{
         margin-bottom: 60px;
     
     }
-    @media (min-width: 768px) { 
-    .inside-panel{
-        height: 1198px;
+    .main-ctn{
+        margin: 0%;
+        padding-top:60px;
+        margin-left: 4%;
+        padding-left: 0%;
     }
+    .titles{
+        padding-bottom: 15px;
+    }
+    .generalText{
+        width: 359px;
+        padding-bottom: 15px;
+    }
+    #aactTxt{
+        width: 385px;
+    }
+    #p4{
+        margin-right: -0.1%;
+    }
+    @media (min-width: 768px) { 
+    
     .bodyContent {
     padding: 2% 0%;
     }
+    #emailLink{
+        margin-top: 0%;
+    }
+    .inside-panel{
+        height:100%
+    }
 }
 @media (min-width: 1200px) {
+    .inside-panel{
+        height: 1198px;
+    }
     #p4{
         float: right;
         width: 385px;
-        margin-right: -7%;
-        margin-top: -585px;
-        margin-left: -10%;
+        margin-top: -655px;
+        
     }
     #emailLink{
         margin-top: 10px;
         margin-left: auto;
+    }
+}
+@media (min-width: 1293px) {
+    #p4{
+        margin-right: -7.5%;
     }
 }
