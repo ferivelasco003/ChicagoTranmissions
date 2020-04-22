@@ -5,6 +5,7 @@
     margin: 0% 9%;
     clear: both;
     padding: 7% 0%;
+    width: 385px;
     }
     .extraBold{
         font-size: 18px;
@@ -14,8 +15,27 @@
         color:#000000;
         text-decoration: none;
     }
+    #p4{
+        padding-top: 0px;
+    }
+    #emailLink{
+        margin-bottom: 60px;
+    
+    }
     @media (min-width: 768px) { 
     .inside-panel{
         height: 1198px;
+    }
+    .bodyContent {
+    padding: 2% 0%;
+    }
+}
+@media (min-width: 1200px) {
+    #p4{
+        float: right;
+        width: 385px;
+        margin-right: -7%;
+        margin-top: -585px;
+        margin-left: -10%;
     }
 }
