@@ -4,7 +4,7 @@
   font-weight: 500;
 }
  .bodyContent{
-    margin: 0% 9%;
+    margin: 5% 9%;
     clear: both;
 }
 .boldTxt{
@@ -46,4 +46,8 @@
 }
 @media (min-width: 1200px) { 
     /* .inside-panel { height:  1825px;} */
+    .bodyContent{
+        margin: 0% 24%;
+        width: 359px;
+    }
 }

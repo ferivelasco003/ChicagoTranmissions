@@ -22,7 +22,7 @@ span.BItext{
     font-size: 36px;
   font-weight: 500;
   line-height: 1.06;
-  padding-top: 15%;
+  padding-top: 7%;
 }
 #title3{
     /* white-space: nowrap; */
@@ -44,11 +44,14 @@ span.BItext{
 #cp2{
     margin: auto; 
     color: #026b07;
+    margin-top: 5%;
  }
  #cp3{
     margin: auto; 
     background-color:#da9500;
     border: none;
+    margin-bottom: 60px;
+    margin-top: 12px;
  }
  .bodyContent{
     margin: 0% 9%;
@@ -79,16 +82,29 @@ span.BItext{
 @media (min-width: 768px) { 
     /* .inside-panel { max-height: 1350px;} */
     .inside-panel{height: 100%;}
-    .bodyContent{ margin-top: 7%;}
+    .bodyContent{ 
+        margin-top: 7%;
+        width: 385px;
+    }
     .main-ctn{
-        /* width: 385px; */
-        /* height: 1212px; */
+        padding-top: 7%;
+        padding-left: 17%;
+    }
+    .title{
+      padding-top: 7%;
     }
     #p2{
         width: 385px;
     }
     #p3{
         width: 385px;
+    }
+    .main-ctn2{
+        float: right;
+        width: 385px;
+        margin-right: -7%;
+        margin-top: -945px;
+        margin-left: -10%;
     }
 }
 @media (min-width: 800px){
