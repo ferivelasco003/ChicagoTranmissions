@@ -186,7 +186,7 @@ header ul li ul{
         /* margin-top: 15%; */
     }
     /* NEEDS TO CHANGE TO ACTIVE INSTEAD OF HOVER, HOVER JUST FOR TESTING PURPOSES */
-    #Menu_link:hover  .nav-list {
+    #Menu_link:hover  .nav-list, #Menu_link:active  .nav-list  {
         display: block;
         /* padding: 0 30px; */
         /* width: 50px; */
@@ -196,11 +196,11 @@ header ul li ul{
         background: #980000;
         height: 400px;
     }
-    
-    header > ul > li:hover  {
+     /* NEEDS TO CHANGE TO ACTIVE INSTEAD OF HOVER, HOVER JUST FOR TESTING PURPOSES */
+    header > ul > li:hover {
         height: 400px;
     }
-   
+    
      .nav-list{
         width: 100px;
     }

@@ -14,8 +14,9 @@
 .titles{
     font-size: 28px;
   font-weight: 500;
-  padding-bottom: 30px;
-  padding-top: 60px;
+  padding-bottom: 15px;
+  padding-top: 68px;
+  padding-left: 8%;
 }
 .generalText{
     text-align: left;}
@@ -29,7 +30,6 @@
      padding: 0px 60px;
  }
  .buttons{
-    width: 195px;
   height: 60px;
   border-radius: 8px;
   border: solid 2px #979797;
@@ -62,14 +62,47 @@
   line-height: 1.61;
   letter-spacing: normal;
   color: #000000;
-
+  
+}
+.left-box{
+    float: left;
+    width: 359px;
+    padding: 3% 8%;
+}
+#hoursOp{
+    padding-top: 15px;
 }
 
 @media (min-width: 375px){
-
+    .right-box{
+    margin-left: -15%;
+    }
+    .right-txt-box {
+        padding-top: 35%;
+    }
+    #discoverCard {
+        margin-left: 0px; 
+        margin-top: 0px; 
+    }
+    .generalText{
+    width: 319px;}
+    .left-box{
+        float: left;
+        width: 359px;
+        padding: 8% 0%;
+        margin-left: 5%;
+    }
+    .cardDiv{
+        padding-bottom: 40px;
+    }
 }
 @media (min-width: 500px){
-
+    .right-txt-box {
+        padding-top: 20%;
+    }
+    .right-box{
+        margin-left: 0%;
+        }
 }
 @media (min-width: 768px) { 
     .googleMap{
@@ -77,30 +110,67 @@
         height:450px;
         border: solid 2px #979797;
     }
-    .left-box{
-        float: left;
-        width: 359px;
-
+    .buttons{
+        width: 195px;
     }
     .right-box{
-        margin-right: -15%;
-        float: right;
-        width: 359px;
-        margin-top: -250px;
-    }
-    .right-txt-box{
-        padding-top: 25%;
-    }
+        margin-left: 0%;
+        }
+    
     .cardDiv{
         margin-top: 40px;
     }
+    .generalText{
+        width: 359px;}
+        .left-box{
+            float: left;
+            width: 359px;
+            padding: 3% 8%;
+        }
+        .inside-panel {
+            margin-left: -14%;
+        }
+        .cardDiv{
+            padding-bottom: 0px;
+        }
 }
-@media (min-width: 992px) { 
-
+@media (min-width: 840px) { 
+    #side_panel{
+        margin-left: -2%;
+    }
 }
-@media (min-width: 1200px) { 
+@media (min-width: 850px) { 
+    .inside-panel {
+        margin-left:0%;
+}
+@media (min-width: 1175px) { 
+    .right-box{
+        
+        float: left;
+}
+@media (min-width: 1200px) {
+    .googleMap{
+        width:814px;
+        height:456px;
+            }
+    .right-box{
+        float: right;
+        width: 359px;
+        margin-top: -347px;
+        margin-right: -20%;
+    }
+    
+}
+@media (min-width: 1300px) { 
     .googleMap{
         width:914px;
         height:456px;
+        margin-left: 5px;
+    }
+    .right-box{
+        margin-right: -12%;
+    }
+    .right-txt-box{
+        padding-top: 25%;
     }
 }

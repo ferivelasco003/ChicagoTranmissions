@@ -17,7 +17,9 @@ span.BItext{
   line-height: 1.61;
   letter-spacing: normal;
   text-align: left;
+  width: 385px;
 }
+#pleaseTxt{width: 359px;}
 .title{
     font-size: 36px;
   font-weight: 500;
@@ -31,7 +33,6 @@ span.BItext{
     color:#026b07;
 }
 .buttons{
-    width: 255px;
   height: 60px;
   border-radius: 8px;
   border: solid 2px #979797;
@@ -68,51 +69,101 @@ span.BItext{
     height: 80px;
     white-space: nowrap;
   } */
-  #p4{padding-top: 45px;}
+  #p4{
+      padding-top: 45px;
+      width: 359px;
+}
   .titles{
     font-size: 28px;
   font-weight: 500;
 }
-@media (min-width: 375px){
-
+#p2{
+    width: 385px;
 }
+#p3{
+    width: 385px;
+}
+.main-ctn2{
+    width: 385px;
+    
+}
+@media (min-width: 375px){
+    .main-ctn{
+        padding-top: 10%;
+    }
+    #pleaseTxt{
+        padding-right: 55px;
+    }
+    .generalText {
+    
+        width: 305px;
+    }
+    #title3 {
+        width: 305px;
+    }
+    .CpnWhite {
+        padding-left: 11%;
+    }
+}
+    
 @media (min-width: 500px){
 
 }
 @media (min-width: 768px) { 
     /* .inside-panel { max-height: 1350px;} */
-    .inside-panel{height: 100%;}
+    .inside-panel{height: 100%;
+        margin-left: -14%;}
     .bodyContent{ 
         margin-top: 7%;
-        width: 385px;
+        width: 359px;
     }
     .main-ctn{
-        padding-top: 7%;
-        padding-left: 17%;
+        padding-top: 0%;
+        padding-left: 4%;
+    }
+    .generalText {
+        width: 385px;
     }
     .title{
       padding-top: 7%;
     }
-    #p2{
-        width: 385px;
-    }
-    #p3{
-        width: 385px;
-    }
     .main-ctn2{
-        float: right;
-        width: 385px;
-        margin-right: -7%;
-        margin-top: -945px;
-        margin-left: -10%;
+        padding-left: 4%;
     }
+    .buttons{
+        width: 255px;
+    }
+    
+    
 }
 @media (min-width: 800px){
     /* .inside-panel { max-height: 1290px;} */
 }
-@media (min-width: 992px) { 
+@media (min-width: 840px) { 
+    #side_panel{
+        margin-left: -2%;
+    }
+}
+@media (min-width: 850px) { 
+    .inside-panel {
+        margin-left:0%;
+}
+@media (min-width: 1115px) { 
     /* .inside-panel { max-height: 1250px;} */
+    .main-ctn2{
+        float: left;}
+}
+@media (min-width: 1190px){
+    .main-ctn2{
+        margin-right: -10%;}
 }
 @media (min-width: 1200px) { 
     /* .inside-panel { height: 1187px;} */
+    .main-ctn2{
+        float: right;
+        
+        margin-right: -4%;
+        margin-top: -1040px;
+        
+    }
 }

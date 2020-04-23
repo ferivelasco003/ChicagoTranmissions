@@ -35,26 +35,55 @@
         padding-bottom: 15px;
     }
     .generalText{
-        width: 359px;
         padding-bottom: 15px;
+    }
+@media (min-width: 375px){
+    .generalText {
+        width: 300px;
+    }
+}
+@media (min-width: 500px){
+    .generalText{
+        width: 359px;
     }
     #aactTxt{
         width: 385px;
     }
-    #p4{
-        margin-right: -0.1%;
+}
+@media (min-width: 768px) { 
+    .generalText{
+        width: 359px;
     }
-    @media (min-width: 768px) { 
-    
+    #aactTxt{
+        width: 385px;
+    }
     .bodyContent {
     padding: 2% 0%;
     }
     #emailLink{
         margin-top: 0%;
+        margin-left: 0px;
     }
     .inside-panel{
         height:100%
     }
+    .inside-panel {
+        margin-left: -14%;
+    }
+}
+@media (min-width: 768px) { 
+.inside-panel {
+    margin-left: -10%;
+}
+}
+@media (min-width: 840px) { 
+    #side_panel{
+        margin-left: -2%;
+    }
+}
+@media (min-width: 850px) { 
+    .inside-panel {
+        margin-left:0%;
 }
 @media (min-width: 1200px) {
     .inside-panel{
@@ -68,11 +97,18 @@
     }
     #emailLink{
         margin-top: 10px;
-        margin-left: auto;
+        margin-left: 0px;
     }
+    
 }
-@media (min-width: 1293px) {
+@media (min-width: 1280px) {
+    
     #p4{
         margin-right: -7.5%;
+    }
+}
+@media (min-width: 1300px){
+    #p4{
+        margin-right: -0.1%;
     }
 }
