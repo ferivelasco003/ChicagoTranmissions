@@ -239,3 +239,8 @@ header ul li ul{
         width: 340px;
     } */
 }
+@media(max-width:360px){
+    header ul {
+        width: 330px;
+       }
+}

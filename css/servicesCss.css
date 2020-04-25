@@ -104,9 +104,9 @@
         border-radius: 8px;
         background-color: #dedede;
     }
-    #warranties{
+    /* #warranties{
         padding-top: 9%;
-    }
+    } */
     #side_panel{
         margin-left: 0;
     }
@@ -160,8 +160,14 @@
     }
 }
 @media (min-width: 1250px){
-    #greyBox{
+    /* #greyBox{
         margin: 0%;
-        margin-left: 12%;
-    }
+       
+    } */
 }
+@media (min-width: 1336px){
+    /* #greyBox{
+        /* margin-left: 3%; */
+        /* margin-left: 12%; */
+    } */
+} 

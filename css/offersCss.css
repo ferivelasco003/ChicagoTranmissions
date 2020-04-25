@@ -19,6 +19,12 @@ span.BItext{
   text-align: left;
   width: 385px;
 }
+#espText {
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+}
 #pleaseTxt{width: 359px;}
 .title{
     font-size: 36px;

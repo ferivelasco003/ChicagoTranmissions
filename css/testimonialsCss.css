@@ -37,6 +37,12 @@
     .generalText{
         padding-bottom: 15px;
     }
+    #espText {
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: center;
+    }
 @media (min-width: 375px){
     .generalText {
         width: 300px;

@@ -72,7 +72,28 @@
 #hoursOp{
     padding-top: 15px;
 }
-
+@media (min-width: 360px){
+    .right-box{
+    margin-left: -15%;
+    }
+    .right-txt-box {
+        padding-top: 35%;
+    }
+    #discoverCard {
+        margin-left: 0px; 
+        margin-top: 0px; 
+    }
+    .generalText{
+    width: 319px;}
+    .left-box{
+        float: left;
+        width: 359px;
+        padding: 8% 0%;
+        margin-left: 5%;
+    }
+    .cardDiv{
+        padding-bottom: 40px;
+    }
 @media (min-width: 375px){
     .right-box{
     margin-left: -15%;
