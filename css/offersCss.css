@@ -31,7 +31,7 @@ span.BItext{
     letter-spacing: normal;
     text-align: center;
 }
-#pleaseTxt{width: 359px;}
+
 .title{
     font-size: 36px;
   font-weight: 500;
@@ -73,26 +73,19 @@ span.BItext{
 
   #p4{
       /* padding-top: 45px; */
-      width: 359px;
+      
       padding-bottom: 40px;
 }
   .titles{
     font-size: 28px;
   font-weight: 500;
 }
-#p2{
-    width: 385px;
-}
-#p3{
-    width: 385px;
-}
-.main-ctn2{
-    width: 385px;
-    
-}
+
+
+
 #whiteCpn {
-    width: 85%;
-    margin: 5% 8%;
+    width: 75%;
+    /* margin: 5% 8%; */
 }
 @media (min-width: 360px){
     .generalText{
@@ -151,9 +144,21 @@ span.BItext{
     .title{
       padding-top: 7%;
     }
+    #p2{
+        width: 385px;
+    }
+    #p3{
+        width: 385px;
+    }
+    #p4{
+        width: 385px;
+    }
+    #pleaseTxt{width: 359px;}
     .main-ctn2{
         padding-left: 4%;
+        width: 385px;
     }
+
     .buttons{
         width: 255px;
     }

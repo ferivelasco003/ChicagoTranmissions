@@ -5,7 +5,7 @@
     margin: 0% 9%;
     clear: both;
     padding: 7% 0%;
-    width: 385px;
+    width: 300px;
     }
     .extraBold{
         font-size: 18px;
@@ -65,6 +65,7 @@
     }
     .bodyContent {
     padding: 2% 0%;
+    width: 385px;
     }
     #emailLink{
         margin-top: 0%;
