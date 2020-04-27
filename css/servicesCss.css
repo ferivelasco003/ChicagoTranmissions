@@ -2,7 +2,7 @@
 .titles{
     font-size: 28px;
   font-weight: 500;
-  white-space: nowrap;
+  
 }
  .bodyContent{
     margin: 0% 9%;
@@ -21,8 +21,12 @@
     white-space: normal;
 }
 .main-ctn{
-    padding-top:30px;
-    margin-left: -3%;
+    margin: 0%;
+    padding-top: 60px;
+    margin-left: 4%;
+    padding-left: 0%;
+    /* padding-top:30px;
+    margin-left: -3%; */
 }
 
 .generalTextGrey{
@@ -52,19 +56,27 @@
 
 #greyBox{
     width: 390px;
-    height: 567px;
+    
+    height: 625px;
+    
     border-radius: 8px;
     background-color: #dedede;
+    /* margin-left: 0%; */
+    width: 85%;
+    padding-top: 7%;
 }
 .inside-panel{height: 100%;}
+#last-box{
+    padding-bottom: 40px;
+}
 @media (min-width: 375px){
     .bodyContent{
         margin: 0% 9%;
         clear: both;
     }
     #greyBox{
-        width: 85%;
-        padding-top: 7%;
+        
+        
     }
     #GoldenLogo{
         padding: 0% 4%;
@@ -72,15 +84,23 @@
     .bbb{
         padding-bottom: 10%;
     }
+    
 }
 @media (min-width: 500px){
     .logos {
         padding: 3% 23%;
     }
+    #greyBox{
+        width: 390px;
+        height: 567px;
+    }
     #GoldenLogo{
         margin-top: -3%;
         margin-left: auto;
     }
+    .titles{
+        white-space: nowrap;
+      }
 }
 @media (min-width: 768px) { 
     .bodyContent {
@@ -91,6 +111,9 @@
         padding-top:70px;
         padding-top: 40px;
         /* margin-left: 10%; */
+    }
+    #main-ctn2{
+        margin-left: -6%;
     }
     .bbb{
         padding-bottom: 0%;
@@ -124,11 +147,14 @@
         margin-left:0%;
 }
 @media (min-width: 1200px) { 
+    .main-ctn{
+        margin-left: 0%;
+    }
     #main-ctn2{
         float: right;
         /* margin-top: -1048px; */
         margin-top: -970px;
-        margin-right: -20%;
+        margin-right: -27%;
     }
     .logos{
         padding: 6% 10%;

@@ -4,7 +4,13 @@
 
 body{
   font-family: 'Rubik', sans-serif;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  max-width: 100% !important;
 }
+
 .content-wrapper{
   max-width: 1366px;
   margin: 0 auto;
@@ -271,7 +277,8 @@ height: 120px;
     margin-top: 10%;
   }
   .coupons{
-    margin: 0% 5%;
+    /* margin: 0% 5%; */
+    margin: 0% 10%;
   }
    #ft_1logo {
     margin-left: 15%;
@@ -296,10 +303,10 @@ height: 120px;
     background-size: 110%;
   }
   .main_coupon {
-    
-    padding: 9%;
+    margin: 0% 5%;
+    /* padding: 9%; */
     border-radius: 8px;
-    margin-left: 0%;
+    /* margin-left: 0%; */
   }
   .logo-2{
     width: 97%;
@@ -415,7 +422,7 @@ height: 120px;
   line-height: 1.13;
   }
   .main_image{
-    /* width: 100%; */
+    width: 85%;
     margin-top: -5px;
   }
   .middleDiv{
@@ -437,6 +444,7 @@ height: 120px;
       padding-top: 2%;
     margin-bottom: -5%;
     font-size: 16px;
+    margin-right: 5%;
   }
   #side_panel{
     margin-left: -2%;
@@ -543,7 +551,7 @@ height: 120px;
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) { 
   .main_image{
-   
+   width: 95%;
     height: 456px;
   }
   #phone_num{
@@ -559,6 +567,9 @@ height: 120px;
   
   #customersbox{
     margin-left: 5%;
+  }
+  #customers2 {
+    margin-right: 0%;
   }
   .main_coupon{
     margin-left: -3%;

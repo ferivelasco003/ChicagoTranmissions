@@ -5,6 +5,12 @@
 .bodyContent{
     /* width: 385px; */
 }
+.main-ctn{
+    margin: 0%;
+    padding-top:60px;
+    margin-left: 4%;
+    padding-left: 0%;
+}
 span.BItext{
     font-weight: 500;
     font-style: italic;
@@ -64,20 +70,11 @@ span.BItext{
     margin: 0% 9%;
     clear: both;
 }
-/* #EspText{
-    background-color:#000000;
-    color: #da9500; 
-    font-size: 36px;
-    font-weight: 500;
-    padding: 12px 55px;
-    font-weight: 500;
-    line-height: 1.11;
-    height: 80px;
-    white-space: nowrap;
-  } */
+
   #p4{
-      padding-top: 45px;
+      /* padding-top: 45px; */
       width: 359px;
+      padding-bottom: 40px;
 }
   .titles{
     font-size: 28px;
@@ -93,9 +90,21 @@ span.BItext{
     width: 385px;
     
 }
+#whiteCpn {
+    width: 85%;
+    margin: 5% 8%;
+}
+@media (min-width: 360px){
+    .generalText{
+        width: 300px;
+    }
+    #title3 {
+        width: 305px;
+    }
+}
 @media (min-width: 375px){
     .main-ctn{
-        padding-top: 10%;
+        padding-top: 60px;
     }
     #pleaseTxt{
         padding-right: 55px;
@@ -104,16 +113,24 @@ span.BItext{
     
         width: 305px;
     }
-    #title3 {
-        width: 305px;
-    }
+    
     .CpnWhite {
+
         padding-left: 11%;
+    }
+    #whiteCpn {
+        
+        width: 260px;
+        
+        padding: 0px 0px;
+        margin: 10% 2%;
     }
 }
     
 @media (min-width: 500px){
-
+    #whiteCpn {
+        width: 85%;
+        margin: 10%;
 }
 @media (min-width: 768px) { 
     /* .inside-panel { max-height: 1350px;} */
@@ -124,11 +141,12 @@ span.BItext{
         width: 359px;
     }
     .main-ctn{
+        margin-left: 0%;
         padding-top: 0%;
         padding-left: 4%;
     }
     .generalText {
-        width: 385px;
+        width: 345px;
     }
     .title{
       padding-top: 7%;
@@ -139,11 +157,15 @@ span.BItext{
     .buttons{
         width: 255px;
     }
-    
+    #whiteCpn {
+        margin: 10% -8%;
+        width: 260px;
+    }
     
 }
 @media (min-width: 800px){
     /* .inside-panel { max-height: 1290px;} */
+    
 }
 @media (min-width: 840px) { 
     #side_panel{
@@ -153,6 +175,10 @@ span.BItext{
 @media (min-width: 850px) { 
     .inside-panel {
         margin-left:0%;
+    }
+    .generalText {
+        width: 385px;
+    }
 }
 @media (min-width: 1115px) { 
     /* .inside-panel { max-height: 1250px;} */

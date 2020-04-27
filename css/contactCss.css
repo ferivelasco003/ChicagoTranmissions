@@ -16,7 +16,7 @@
   font-weight: 500;
   padding-bottom: 15px;
   padding-top: 68px;
-  padding-left: 8%;
+  
 }
 .generalText{
     text-align: left;}
@@ -72,9 +72,12 @@
 #hoursOp{
     padding-top: 15px;
 }
+.cardDiv{
+    padding-bottom: 40px;
+}
 @media (min-width: 360px){
     .right-box{
-    margin-left: -15%;
+        margin-left: -20%;
     }
     .right-txt-box {
         padding-top: 35%;
@@ -95,9 +98,7 @@
         padding-bottom: 40px;
     }
 @media (min-width: 375px){
-    .right-box{
-    margin-left: -15%;
-    }
+    
     .right-txt-box {
         padding-top: 35%;
     }
@@ -121,13 +122,20 @@
     .right-txt-box {
         padding-top: 20%;
     }
-    .right-box{
+    /* .right-box{
         margin-left: 0%;
-        }
+        } */
+    .titles{
+        padding-left: 8%;
+    }
+    .right-box {
+        margin-left: -10%;
+    }
 }
 @media (min-width: 768px) { 
     .googleMap{
-        width:100%;
+        width: 88%;
+        
         height:450px;
         border: solid 2px #979797;
     }
@@ -151,9 +159,7 @@
         .inside-panel {
             margin-left: -14%;
         }
-        .cardDiv{
-            padding-bottom: 0px;
-        }
+        
 }
 @media (min-width: 840px) { 
     #side_panel{
@@ -163,6 +169,10 @@
 @media (min-width: 850px) { 
     .inside-panel {
         margin-left:0%;
+    }
+    .googleMap{
+        width:100%;
+    }
 }
 @media (min-width: 1175px) { 
     .right-box{
