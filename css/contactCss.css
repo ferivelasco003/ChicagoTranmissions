@@ -96,6 +96,7 @@
     .cardDiv{
         padding-bottom: 40px;
     }
+}
 @media (min-width: 375px){
     
     .right-txt-box {
@@ -115,6 +116,12 @@
     }
     .cardDiv{
         padding-bottom: 40px;
+    }
+}
+@media (min-width: 400px){
+    #discoverCard {
+    float: right;
+    margin-right: -22%;
     }
 }
 @media (min-width: 500px){
@@ -177,6 +184,7 @@
     .right-box{
         
         float: left;
+    }
 }
 @media (min-width: 1200px) {
     .googleMap{

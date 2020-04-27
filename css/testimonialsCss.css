@@ -92,6 +92,7 @@
 @media (min-width: 850px) { 
     .inside-panel {
         margin-left:0%;
+    }
 }
 @media (min-width: 1200px) {
     .inside-panel{
@@ -109,9 +110,7 @@
     }
     
 }
-@media (min-width: 1280px) {
 
-}
 @media (min-width: 1280px) {
     
     #p4{

@@ -2,9 +2,6 @@
 /* CSS Document 375px Small Phone size*/
 @import url('https://fonts.googleapis.com/css?family=Rubik:400,500&display=swap');
 
-.bodyContent{
-    /* width: 385px; */
-}
 .main-ctn{
     margin: 0%;
     padding-top:60px;
@@ -38,9 +35,7 @@ span.BItext{
   line-height: 1.06;
   padding-top: 7%;
 }
-#title3{
-    /* white-space: nowrap; */
-}
+
 #greenTitle{
     color:#026b07;
 }
@@ -72,8 +67,6 @@ span.BItext{
 }
 
   #p4{
-      /* padding-top: 45px; */
-      
       padding-bottom: 40px;
 }
   .titles{
@@ -81,12 +74,6 @@ span.BItext{
   font-weight: 500;
 }
 
-
-
-#whiteCpn {
-    width: 75%;
-    /* margin: 5% 8%; */
-}
 @media (min-width: 360px){
     .generalText{
         width: 300px;
@@ -112,11 +99,8 @@ span.BItext{
         padding-left: 11%;
     }
     #whiteCpn {
-        
-        width: 260px;
-        
         padding: 0px 0px;
-        margin: 10% 2%;
+        
     }
 }
     
@@ -125,8 +109,9 @@ span.BItext{
         width: 85%;
         margin: 10%;
 }
+}
 @media (min-width: 768px) { 
-    /* .inside-panel { max-height: 1350px;} */
+    
     .inside-panel{height: 100%;
         margin-left: -14%;}
     .bodyContent{ 
@@ -168,10 +153,7 @@ span.BItext{
     }
     
 }
-@media (min-width: 800px){
-    /* .inside-panel { max-height: 1290px;} */
-    
-}
+
 @media (min-width: 840px) { 
     #side_panel{
         margin-left: -2%;
@@ -186,7 +168,7 @@ span.BItext{
     }
 }
 @media (min-width: 1115px) { 
-    /* .inside-panel { max-height: 1250px;} */
+    
     .main-ctn2{
         float: left;}
 }
@@ -195,7 +177,7 @@ span.BItext{
         margin-right: -10%;}
 }
 @media (min-width: 1200px) { 
-    /* .inside-panel { height: 1187px;} */
+    
     .main-ctn2{
         float: right;
         

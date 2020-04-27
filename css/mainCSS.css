@@ -35,9 +35,7 @@ background-position: 0px -230px;
 height: 120px;
 }
 .main_image{
-  /* width: 460px; */
   width: 90%;
-  /* height: 229px;*/
   margin: 5%; 
 }
 #phone_num{
@@ -60,7 +58,6 @@ height: 120px;
   text-align: center;
 }
 #PersonalQ{
-/* width: 400px; */
   height: 102px;
   font-size: 30px;
   font-weight: 500;
@@ -80,7 +77,6 @@ height: 120px;
   width: 80%;
   padding: 3%;
   border-radius: 8px;
-  /* margin-left: 10%; */
   width: 390px;
      
 }
@@ -106,7 +102,6 @@ height: 120px;
   padding-bottom: 5%;
   line-height: 1.5;
     font-size: 16px;
-    /* width: 390px; */
     height: 335px; 
 }
 #customers3{
@@ -145,8 +140,6 @@ height: 120px;
   line-height: 1.67;
   letter-spacing: normal;
   text-align: center;
-  
-  /* font-family: "Rubik-Regular";  */
 }
 #SaulName{
   font-size:36px;
@@ -181,7 +174,6 @@ height: 120px;
 }
 #whiteCpn{
  background-color: #ffffff; 
-  /* width: 260px; */
   width: 75%;
   border-radius: 18px;
   padding: 0px 0px;
@@ -240,6 +232,9 @@ height: 120px;
   letter-spacing: normal;
   margin-bottom: 34px;
 }
+#customersbox{
+  margin-top: 30%;
+}
 @media (min-width: 360px) {
   #header{
     background-size: 150%;
@@ -252,6 +247,10 @@ height: 120px;
     width: 90%;
     margin: 0% 5%;
    }
+   #customersbox{
+    margin-top: 60%;
+
+  }
    #customers2 {
     padding-top: 5%;
    }
@@ -265,9 +264,7 @@ height: 120px;
     float: left;
     width: 45%;
     margin-right: -7%;
-    /* margin-left: -3%; */
     margin-left: 3%;
-    /* height: 60px; */
   }
   #dir_btn{
     
@@ -278,8 +275,6 @@ height: 120px;
     margin-top: 10%;
   }
   .coupons{
-    /* margin: 0% 5%; */
-    /* margin: 0% 10%; */
     margin-left: 15%;
   }
    #ft_1logo {
@@ -306,9 +301,13 @@ height: 120px;
   }
   .main_coupon {
     margin: 0% 5%;
-    /* padding: 9%; */
     border-radius: 8px;
-    /* margin-left: 0%; */
+  }
+  #fifty-off{
+    margin-top: -8%;
+  }
+  #customersbox{
+    margin-top: 50%;
   }
   .logo-2{
     width: 97%;
@@ -327,7 +326,10 @@ height: 120px;
   
   .coupons {
     width: 100%;
-    margin: 0% 10%;
+    margin-left: 30%;
+  }
+  #whiteCpn{
+     margin-left: 7%;
   }
   .CpnWhite{
     padding-left: 13%;
@@ -350,10 +352,6 @@ height: 120px;
   header{
     width: 110%;
     }
-    /* .main_image {
-      width: 460px;
-      height: 229px;
-    } */
     #espText{
       margin-left: -25px;
       margin-top: -8px;
@@ -362,14 +360,24 @@ height: 120px;
     margin-left: 9%;
     width: 411px;
 }
+#fifty-off {
+  margin-top: -25%;
+  width: 390px;
+  /* margin-left: %; */
+}
+
 .main_coupon {
-  width: 80%;
+  /* width: 80%; */
   padding: 3%;
   border-radius: 8px;
   margin: 0% 15%;
   width: 390px;
   margin-top: -20%;
 }
+#customersbox {
+  margin-top: 30%;
+}
+
   #customers2{
     padding-top: 0;
   }
@@ -418,7 +426,6 @@ height: 120px;
   }
   #PersonalQ{
     padding: 0 3%;
-  /* height: 174px; */
   font-size: 30px;
   font-weight: 500;
   line-height: 1.13;
@@ -436,6 +443,10 @@ height: 120px;
     margin-left: -6%;
     padding-left: 48px;
     margin-top: 0%;
+  }
+  #fifty-off {
+    margin-top: 15%;
+    width: 65%;
   }
   #customers1{
     width: 90%;
@@ -456,8 +467,6 @@ height: 120px;
     margin-top: 20%;
   }
   .coupons{
-    /* width: 260px;
-    height: 133.3px; */
     padding-left: 0%;
     width: 100%;
     margin-top: 5%;
@@ -510,8 +519,6 @@ height: 120px;
     margin-left: 33%;
   } 
   #footer{
-    /* height: 30%;
-    padding-left: 30%; */
     height: 325px;
   }
  
@@ -522,7 +529,7 @@ height: 120px;
   #ft_1logo{    margin-left: 38.4%;} 
  
   #customersbox{
-    width: 50%;
+    width: 48%;
     float: right;
     margin-top: -30%;
     margin-right: 5%;
@@ -530,7 +537,6 @@ height: 120px;
   .inside-panel{
     background-color: #230000;
     height: 100%;
-    /* height: 1501px; */
     width: 280px;
     margin-left: -3%;
   }
@@ -538,17 +544,15 @@ height: 120px;
     margin: 10% -10%;
   }
 }
+
 @media (min-width: 800px) { 
-    .coupons{
-      width: fit-content;
-      padding: 0 5.5%;
-    } 
-}
-@media (min-width: 800px) { 
-  .inside-panel{    
-    /* margin-left: 4%; */
+  .inside-panel{ 
     margin-left: 1%;
   }
+  .coupons{
+    width: fit-content;
+    padding: 0 5.5%;
+  } 
 }
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) { 
@@ -561,14 +565,16 @@ height: 120px;
     padding: 3% 0;
     
   }
- 
+ #fifty-off{
+  /* margin-top: 5%; */
+  width: 390px;
+ }
   #side_panel{
-    /* padding-left: 138px; */
     padding-left: 5%;
   }
   
   #customersbox{
-    margin-left: 5%;
+    margin-right: -2%;
   }
   #customers2 {
     margin-right: 0%;
@@ -580,9 +586,6 @@ height: 120px;
   #yellowCpn{
     margin-top: 10%;
   }
-  /* #ft_1logo{
-    margin-left: 35%;
-  } */
   #ftLogo {
     padding-left: 35%;
   }
@@ -592,7 +595,18 @@ height: 120px;
   #whiteCpn {
     margin: 10% -7%;
 }
+}
 
+
+@media (min-width: 1000px){
+  #customersbox {
+    margin-top: -28%;
+}
+@media (min-width: 1086px){
+  #customersbox {
+  margin-top: 10%;
+  }
+}
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) { 
   .logo-2 {
@@ -604,6 +618,9 @@ height: 120px;
     height: 456px;
     margin-top: -5px;
     margin-left: 5.5%;
+  }
+  #customersbox {
+    margin-top: 10%;
   }
   #side_panel{
     clear: both;
@@ -672,10 +689,14 @@ height: 120px;
     width: 390px;
     height: 48px;
 }
+#fifty-off {
+  margin-top: 20%;
+}
 #customersbox{
   margin-left: 0%;
   margin-right: -4.5%;
-  margin-top: -33.5%;
+  /* margin-top: -33.5%; */
+  margin-top: 5%;
 }
 #customers4{
   padding-top: 0%;
