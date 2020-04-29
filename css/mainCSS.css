@@ -188,15 +188,20 @@ height: 120px;
   padding-bottom: 25px;
 }
 .ft_logos{
-  margin-left: 3.1%;
+  /* margin-left: 3.1%;
   margin-top: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 40px;  */
+  display: table-cell;
+  margin: 30px 10px;
+  /* width: 30px;
+  height: 48px; */
 }
+
 #ft_1logo{
-  margin-left: 25%;
-  width: 30px;
-    height: 48px;
-    object-fit: contain;
+    margin-left: 70px;
+  /* margin-left: 25%;
+ 
+    object-fit: contain; */
 }
 
 #ft_2logo{
@@ -278,7 +283,7 @@ height: 120px;
     margin-left: 15%;
   }
    #ft_1logo {
-    margin-left: 15%;
+    margin-left: 50px;
    }
    #ft_4logo {
     margin-right: 0px;
@@ -339,7 +344,7 @@ height: 120px;
     padding-left: 0;
   }
   #ft_1logo {
-    margin-left: 19%;
+    margin-left: 70px;
   }
   #ft_4logo {
      margin-right: 0px;
@@ -402,8 +407,11 @@ height: 120px;
      margin: 8% 3%;
    }
   #ft_1logo{
-    margin-left: 25%;
+    margin-left: 70px;
   }
+  #ftLogo {
+    padding-left: 22%;
+}
 }
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) { 
@@ -526,7 +534,7 @@ height: 120px;
   #ft_Logos{
     margin-left: 3.1%;
   }
-  #ft_1logo{    margin-left: 38.4%;} 
+  #ft_1logo{  margin-left: 270px;} 
  
   #customersbox{
     width: 48%;
@@ -595,6 +603,9 @@ height: 120px;
   #whiteCpn {
     margin: 10% -7%;
 }
+#ft_1logo {
+  margin-left: 370px;
+}
 }
 
 
@@ -660,6 +671,9 @@ height: 120px;
   #ftLogo {
     padding-left: 40%;
   }
+  #ft_1logo {
+    margin-left: 500px;
+}
 }
 @media (min-width: 1300px){
   .main_image{
@@ -706,5 +720,8 @@ height: 120px;
 }
 .inside-panel{
   height: 1245px;
+}
+#ft_1logo {
+  margin-left: 550px;
 }
 }
