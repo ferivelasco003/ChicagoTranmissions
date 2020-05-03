@@ -282,6 +282,11 @@ height: 120px;
   .coupons{
     margin-left: 15%;
   }
+  #address{
+    color: white;
+    margin-left: 30%;
+    margin-top: -5px;
+  }
    #ft_1logo {
     margin-left: 50px;
    }
@@ -406,6 +411,9 @@ height: 120px;
      padding: 0px 0px;
      margin: 8% 3%;
    }
+   #address{
+    margin-left: 35%;
+   }
   #ft_1logo{
     margin-left: 70px;
   }
@@ -506,8 +514,8 @@ height: 120px;
   font-weight: 500;
   }
   #address{
-    padding-top: 20px;
-  }
+    margin-left: 22%;
+   }
   #shopMG{
     margin-top:-18px;
     margin-left: -4px;
@@ -603,6 +611,9 @@ height: 120px;
   #whiteCpn {
     margin: 10% -7%;
 }
+#address{
+  margin-left: 26%;
+ }
 #ft_1logo {
   margin-left: 370px;
 }
