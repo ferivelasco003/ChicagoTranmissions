@@ -115,7 +115,7 @@ height: 120px;
     font-size: 14px;
     line-height: 1.43;
     }
-.español{
+.espanol{
   background-color:#000000;
   color: #da9500; 
   font-size: 36px;
@@ -208,7 +208,7 @@ height: 120px;
   width: 67px;
   height: 48px;
   object-fit: contain;
-
+  margin-bottom: -2px;
 }
 #ft_3logo{
   width: 48px;
@@ -223,7 +223,10 @@ height: 120px;
   object-fit: contain;
 
 }
-
+.ftAddress{
+  padding-top: 27px;
+}
+}
 #ftLogo{
   padding-left: 25%;
 
@@ -243,6 +246,9 @@ height: 120px;
 @media (min-width: 360px) {
   #header{
     background-size: 150%;
+   }
+   #phone_num{
+    margin: 0% 6%;
    }
    .logo-2{
     width: 95%;
@@ -303,12 +309,19 @@ height: 120px;
   #ftText{
     padding-left: 5%;
   }
+   #addressft {
+    margin-left: 39%;
+    color:white;
+}
 }
 @media (min-width: 375px) {
   #header{
     background-position: 0px -80px;
     background-size: 110%;
   }
+  #phone_num {
+    margin: 0% 8%;
+}
   .main_coupon {
     margin: 0% 5%;
     border-radius: 8px;
@@ -357,11 +370,17 @@ height: 120px;
   #ftLogo {
     padding-left: 15%;
   }
+  #addressft {
+    margin-left: 37%; 
+}
 }
 @media (min-width: 500px){
   header{
     width: 110%;
     }
+    #phone_num {
+      margin: 0% 18%;
+  }
     #espText{
       margin-left: -25px;
       margin-top: -8px;
@@ -419,6 +438,9 @@ height: 120px;
   }
   #ftLogo {
     padding-left: 22%;
+  }
+#addressft {
+  margin-left: 40%;
 }
 }
 /* Medium devices (tablets, 768px and up)*/
@@ -435,11 +457,9 @@ height: 120px;
     padding: 0;
     margin:0;
   }
- 
-  #phone_num{
-    padding: 3% 0;
-    
-  }
+  #phone_num {
+    padding: 5% 0;
+}
   #PersonalQ{
     padding: 0 3%;
   font-size: 30px;
@@ -499,7 +519,7 @@ height: 120px;
   #yellowCpn{
     margin-top: 10%;
   }
-  .español{
+  .espanol{
     font-size:24px;
     padding-top: 15px;
   height: 40px;
@@ -559,6 +579,9 @@ height: 120px;
   #whiteCpn{
     margin: 10% -10%;
   }
+  #addressft {
+    margin-left: 43%;
+}
 }
 
 @media (min-width: 800px) { 
@@ -578,7 +601,7 @@ height: 120px;
   }
   #phone_num{
     font-size: 65px;
-    padding: 3% 0;
+    padding: 4% 0;
     
   }
  #fifty-off{
@@ -617,8 +640,10 @@ height: 120px;
 #ft_1logo {
   margin-left: 370px;
 }
+#addressft {
+  margin-left: 46%;
 }
-
+}
 
 @media (min-width: 1000px){
   #customersbox {
@@ -676,7 +701,7 @@ height: 120px;
   #phone_num{
     font-size: 72px;
     padding: 5% 0;
-    margin-left: 11%;
+    margin: 0% 27%;
     margin-top: 3px;
   }
   #ftLogo {
