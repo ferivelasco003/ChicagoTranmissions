@@ -102,14 +102,19 @@ height: 120px;
   padding-bottom: 5%;
   line-height: 1.5;
     font-size: 16px;
-    height: 335px; 
+    height: 315px; 
 }
 #customers3{
   padding-bottom:20px;
   font-size: 14px;
   }
-  #customers4{
-    padding-top: 5%;
+  .carouselText{
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  padding-left: 15.9%;
+    /* padding-top: 5%; */
     padding-bottom:20px;
     padding: 3%;
     font-size: 14px;
@@ -188,13 +193,14 @@ height: 120px;
   padding-bottom: 25px;
 }
 .ft_logos{
-  /* margin-left: 3.1%;
-  margin-top: 40px;
-  margin-bottom: 40px;  */
+ 
   display: table-cell;
   margin: 30px 10px;
-  /* width: 30px;
-  height: 48px; */
+ 
+}
+.extraBold{
+  font-size: 18px;
+  font-weight: 700;
 }
 
 #ft_1logo{
@@ -226,7 +232,7 @@ height: 120px;
 .ftAddress{
   padding-top: 27px;
 }
-}
+
 #ftLogo{
   padding-left: 25%;
 
@@ -258,10 +264,6 @@ height: 120px;
     width: 90%;
     margin: 0% 5%;
    }
-   #customersbox{
-    margin-top: 60%;
-
-  }
    #customers2 {
     padding-top: 5%;
    }
@@ -313,6 +315,7 @@ height: 120px;
     margin-left: 39%;
     color:white;
 }
+
 }
 @media (min-width: 375px) {
   #header{
@@ -328,9 +331,6 @@ height: 120px;
   }
   #fifty-off{
     margin-top: -8%;
-  }
-  #customersbox{
-    margin-top: 50%;
   }
   .logo-2{
     width: 97%;
@@ -374,6 +374,15 @@ height: 120px;
     margin-left: 37%; 
 }
 }
+@media (min-width: 400px) {
+    #customers2 {
+    
+    height: 290px;
+    }
+    #phone_num {
+    margin: 0% 11%;
+}
+}
 @media (min-width: 500px){
   header{
     width: 110%;
@@ -406,9 +415,9 @@ height: 120px;
 #customersbox {
   margin-top: 30%;
 }
-
   #customers2{
     padding-top: 0;
+    height: 200px;
   }
   .coupons{
     padding-left: 10%;
@@ -459,6 +468,9 @@ height: 120px;
   }
   #phone_num {
     padding: 5% 0;
+  }
+#customers2 {
+  height: 300px;
 }
   #PersonalQ{
     padding: 0 3%;
@@ -469,6 +481,9 @@ height: 120px;
   .main_image{
     width: 85%;
     margin-top: -5px;
+  }
+  #customers3 {
+    margin-top: -5%;
   }
   .middleDiv{
     margin-top: -25%;
@@ -490,7 +505,7 @@ height: 120px;
     margin-left: 5%;
   }
   #customers2{
-      padding-top: 2%;
+      /* padding-top: 2%; */
     margin-bottom: -5%;
     font-size: 16px;
     margin-right: 5%;
@@ -565,10 +580,8 @@ height: 120px;
   #ft_1logo{  margin-left: 270px;} 
  
   #customersbox{
-    width: 48%;
-    float: right;
-    margin-top: -30%;
     margin-right: 5%;
+    margin-top: 20%;
   }
   .inside-panel{
     background-color: #230000;
@@ -617,6 +630,7 @@ height: 120px;
   }
   #customers2 {
     margin-right: 0%;
+    height: 250px;
   }
   .main_coupon{
     margin-left: -3%;
@@ -644,16 +658,6 @@ height: 120px;
   margin-left: 46%;
 }
 }
-
-@media (min-width: 1000px){
-  #customersbox {
-    margin-top: -28%;
-}
-@media (min-width: 1086px){
-  #customersbox {
-  margin-top: 10%;
-  }
-}
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) { 
   .logo-2 {
@@ -665,9 +669,6 @@ height: 120px;
     height: 456px;
     margin-top: -5px;
     margin-left: 5.5%;
-  }
-  #customersbox {
-    margin-top: 10%;
   }
   #side_panel{
     clear: both;
@@ -688,7 +689,12 @@ height: 120px;
   header{
   width: 1366px;
   }
-  
+  #customers2 {
+    height: 210px;
+    width: 95%;
+    margin: 0% 6%;
+    font-size: 18px;
+}
   #PersonalQ{
   width: 914px;
   height: 174px;
@@ -696,7 +702,7 @@ height: 120px;
   font-weight: 500;
   line-height: 1;
   margin-top: -20px;
-  margin-left: 5.5%;
+  
   }
   #phone_num{
     font-size: 72px;
@@ -723,8 +729,9 @@ height: 120px;
   }
   #customers2{
     padding-top: 0;
-    padding-left: 15.9%;
-    padding-right: 10%;
+    margin: 0%;
+    /* padding-left: 15.9%;
+    padding-right: 10%; */
     margin-bottom: -5%;
     margin-top: -1%;
     padding-right: 0%;

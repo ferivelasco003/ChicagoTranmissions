@@ -9,7 +9,7 @@
 	<!-- CSS -->
 	<link href="css/mainCSS.css" rel="stylesheet">
 	<link href="css/menu_css.css" rel="stylesheet">
-	<!-- <link href="css/mobile_css.css" rel="stylesheet"> -->
+	<link href="css/carouselCss.css" rel="stylesheet">
 	
 <!-- Bootstrap CSS-->
 	<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
@@ -59,7 +59,6 @@
 		<div class="content-wrapper">
 			<div class="row" id="main_content">
 				<div class="col-md-8">
-						<!-- <h1 class="generalText" id="phone_num">773.276.8900</h1> -->
 						<a class="generalText" id="phone_num"href="tel:773.276.8900">773.276.8900</a>
 					
 					<div><img class="main_image" src="Images/image1.jpg"></div>
@@ -73,7 +72,7 @@
 				
 					<div>
 						<p class="generalText" id="customers2">
-							For over 15 years, we have been the Chicagoland experts in the diagnosis, 
+							For over 25 years, we have been the Chicagoland experts in the diagnosis, 
 							service and maintenance of transmissions. Our certified technicians have 
 							the tools, the training and the diagnostic equipment to make sure your 
 							vehicle is diagnosed right and fixed right. If you think you may have a 
@@ -82,29 +81,70 @@
 							Call us to get details on how we can service your transmission.
 						</p>
 					</div>
-				
-					<div class="middleDiv">
-						<a  href="offers.html">
-						<img class="main_coupon" id="fifty-off"src="Images/first-visit.svg">
-					</a>
+			
+					<div>
+						<a class="secondPhoneNum" id="phone_num"href="tel:773.276.8900">773.276.8900</a>
 					</div>
 
+					
 					<div class="middleDiv" id="customersbox">
 						<p class="generalText" id="customers1">WHAT OUR CUSTOMERS ARE SAYING</p>
-						<p class="generalText" id="customers4">  Honest, Friendly and Good Services. 
+						<div class="slideshow-container">
+
+							<div class="mySlides fade">	
+							<p class="carouselText">   
+								<span class="extraBold">Honest, Friendly and Good Services.</span><br>
+								I own a repair shop, but when it comes to transmission repair, 
+								the place to go is AA Chicago Transmission. I highly recommend them.<br>
+								
+								</p>
+								<p class="carouselText"id="customers3"><strong>RAUL G.</strong></p>
+							</div>
+							
+							<div class="mySlides fade">
+							
+							<p class="carouselText" >
+								<span class="extraBold">Thanks for the good job!</span><br>
+								AA Chicago Transmission is the only place I will recommend to any of my customers with any 
+								transmission needs. As a matter of fact, all of my fleet of cabs is in good hands with AA 
+								Chicago Transmission. Fair price, quality work and fast turn around are just a few things 
+								that I will recommend to any of my customers.
+							</p>
+							<p class="carouselText"id="customers3"><strong>Larry I.</strong></p>
+							
+							</div>
+							
+							<div class="mySlides fade">
+							<p class="carouselText">
+							<span class="extraBold">HONEST PRICING</span><br> 
+
+							For years AA Chicago Transmission has been our go-to place for transmission repairs. 
+							They have always provided excellent service and honest pricing. I highly recommend their 
+							services.</p>
+							<p class="carouselText"id="customers3"><strong>Guillermo R.</strong></p>
+							</div>
+							<div style="text-align:center">
+								<span class="dot"></span> 
+								<span class="dot"></span> 
+								<span class="dot"></span> 
+							  </div>
+							  
+						</div>
+						<!-- <p class="generalText" id="customers4">  Honest, Friendly and Good Services. 
 							I own a repair shop, but when it comes to transmission repair, 
 							the place to go is AA Chicago Transmission. I highly recommend them.<br>
 							
 							</p>
 							
-						<p class="generalText"id="customers3"><strong>RAUL G.</strong></p>
+						<p class="generalText"id="customers3"><strong>RAUL G.</strong></p> -->
 					</div>
+						  
 			</div>
 			
 			<div class="col-sx-12  col-md-4 col-lg-4" id="side_panel">
 				<div class="inside-panel">
 					<div class="espanol">
-						<p class="generalText" id="espText">SE HABLA ESPAÑOL</p>
+						<p id="espText">SE HABLA ESPAÑOL</p>
 					</div>
 					<div class="textbox">
 						<p class="generalText"> 
@@ -131,6 +171,11 @@
 					<div class="col-sm">
 						<a href="offers.html">
 							<img class="coupons" id="yellowCpn" src="Images/cabbies.svg">
+						</a>
+					</div>
+					<div class="col-sm">
+						<a class="CpnWhite" href="offers.html">
+							<img class="coupons" id="whiteCpn" src="Images/first-visit.svg">
 						</a>
 					</div>
 				</div>
@@ -173,5 +218,6 @@
 		</div>
 	</footer>
 </body>
+<script src="carouselJS.js"></script>
 </html>
 		 
